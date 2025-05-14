@@ -1,4 +1,10 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "a39e2403-a0b8-4025-9092-0dce122ec7e0__L0",
+      "name": "Arma",
+      "symbol": "var_arma"
+    }
+  ]
 }
