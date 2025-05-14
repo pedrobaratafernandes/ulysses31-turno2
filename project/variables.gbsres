@@ -3,6 +3,11 @@
   "variables": [
     {
       "id": "a39e2403-a0b8-4025-9092-0dce122ec7e0__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "0",
       "name": "Arma",
       "symbol": "var_arma"
     }

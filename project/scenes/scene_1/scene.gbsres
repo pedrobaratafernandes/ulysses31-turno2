@@ -41,7 +41,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "L0"
+                  "value": "0"
                 },
                 "valueB": {
                   "type": "true"
@@ -54,7 +54,7 @@
                 {
                   "command": "EVENT_LAUNCH_PROJECTILE",
                   "args": {
-                    "__section": "source",
+                    "__section": "projectile",
                     "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
                     "spriteStateId": "",
                     "actorId": "$self$",
@@ -84,7 +84,7 @@
                 {
                   "command": "EVENT_LAUNCH_PROJECTILE",
                   "args": {
-                    "__section": "source",
+                    "__section": "projectile",
                     "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
                     "spriteStateId": "",
                     "actorId": "$self$",
@@ -121,7 +121,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "start"
+          "select"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -129,44 +129,13 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_IF",
+            "command": "EVENT_CHOICE",
             "args": {
-              "condition": {
-                "type": "not",
-                "value": {
-                  "type": "variable",
-                  "value": "L0"
-                }
-              },
-              "__collapseElse": false
+              "variable": "0",
+              "trueText": "Gun",
+              "falseText": "Blade"
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "L0",
-                    "value": {
-                      "type": "true"
-                    }
-                  },
-                  "id": "83541530-933e-4ed4-a5af-a1d4b9258187"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "L0",
-                    "value": {
-                      "type": "false"
-                    }
-                  },
-                  "id": "1e2da8ae-1639-448b-91ac-d50b047980dd"
-                }
-              ]
-            },
-            "id": "2eac6f67-78ad-4c5b-aa30-891f6e7f97d6"
+            "id": "ef28030d-9ce5-4c11-9b94-20263e5028a9"
           }
         ]
       },
