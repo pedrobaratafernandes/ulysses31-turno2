@@ -9,7 +9,12 @@
     {
       "id": "a39e2403-a0b8-4025-9092-0dce122ec7e0__L0",
       "name": "Local 0",
-      "symbol": "var_local_0"
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "05ac4167-12ff-496d-8e86-fd2f454d2963__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
     }
   ]
 }

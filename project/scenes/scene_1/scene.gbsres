@@ -144,5 +144,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5d68ca19-21a0-4db1-a13b-b4d57b7a1d1f"
 }
