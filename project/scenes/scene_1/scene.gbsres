@@ -129,13 +129,50 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_CHOICE",
+            "command": "EVENT_IF",
             "args": {
-              "variable": "0",
-              "trueText": "Gun",
-              "falseText": "Blade"
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "eq",
+                  "valueA": {
+                    "type": "variable",
+                    "value": "0"
+                  },
+                  "valueB": {
+                    "type": "true"
+                  }
+                }
+              },
+              "__collapseElse": false
             },
-            "id": "ef28030d-9ce5-4c11-9b94-20263e5028a9"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "c99153b3-86e0-4a2b-9570-996ba0685ce3"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "ba3d454a-b5e7-4097-9023-77b01fd9c954"
+                }
+              ]
+            },
+            "id": "1705c16f-4409-4b4a-a76b-dfc3389da229"
           }
         ]
       },
