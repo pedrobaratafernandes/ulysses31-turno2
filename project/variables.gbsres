@@ -15,6 +15,11 @@
       "id": "05ac4167-12ff-496d-8e86-fd2f454d2963__L0",
       "name": "Local 0",
       "symbol": "var_local_2"
+    },
+    {
+      "id": "7b14371b-5f49-4feb-aa6a-f2228bf4b09f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ]
 }
