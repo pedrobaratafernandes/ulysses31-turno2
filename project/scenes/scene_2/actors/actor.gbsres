@@ -94,7 +94,8 @@
                 "value": "T1"
               },
               "moveType": "diagonal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": true
             },
             "id": "b4321d3b-175b-4e1f-9735-093d510ebbdc"
           }

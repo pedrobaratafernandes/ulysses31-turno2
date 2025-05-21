@@ -30,7 +30,7 @@
         },
         "direction": "",
         "fadeSpeed": "2",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "4c0cdba3-8b96-4f0c-ae70-a8422994368b"
     }
