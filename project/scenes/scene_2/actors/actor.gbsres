@@ -47,12 +47,12 @@
       "id": "4a54822c-ae23-4484-adcb-1410951e571b"
     },
     {
-      "command": "EVENT_WAIT",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
-        "time": 2,
-        "frames": 30
+        "actorId": "$self$",
+        "__collapse": false
       },
-      "id": "15b4c0fc-e650-4839-aaa8-d3344269636c"
+      "id": "9fea82f6-63d1-4e83-802e-9cef195f1230"
     }
   ],
   "updateScript": [
@@ -177,14 +177,6 @@
         "__collapse": true
       },
       "id": "0935a4e9-f265-49eb-84ed-e82636378a1f"
-    },
-    {
-      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "7118be02-7b5b-4faa-a0d6-588812236859"
     }
   ],
   "hit1Script": [],
