@@ -1,0 +1,177 @@
+{
+  "_resourceType": "actor",
+  "id": "d1f298c7-00e2-4f18-98f3-57fa33ced006",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cccfbeff-9e94-4704-9f91-52d0d7cc7c38",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_13",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "99f7d242-ffb4-4448-ad39-fd25bb6ace42"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Script que faz o inimigo mover para o jogador caso o mesmo esteja na área do inimigo, e caso leve um tiro, não reage."
+      },
+      "id": "74765439-802d-423d-a91f-85ad47098449"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operator": "<",
+        "distance": {
+          "type": "number",
+          "value": 6
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_GET_POSITION",
+                  "args": {
+                    "actorId": "player",
+                    "vectorX": "L4",
+                    "vectorY": "L5"
+                  },
+                  "id": "27a5b292-42ad-4103-9920-8c9e5904e4bb"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "variable",
+                      "value": "L4"
+                    },
+                    "y": {
+                      "type": "variable",
+                      "value": "L5"
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true
+                  },
+                  "id": "c85de3bf-5033-4e2f-be2f-3edeb67e9c1e"
+                }
+              ],
+              "false": []
+            },
+            "id": "ef05d04b-921f-4d27-9d9d-ad74ff6262cf"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "46a822e8-b271-455e-ad7f-7c9612245d08"
+          }
+        ]
+      },
+      "id": "cc1dfb5c-53b5-4a50-85e5-95fd20c00185"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 31
+              },
+              "y": {
+                "type": "number",
+                "value": 55
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "2d8d71a0-a8e5-4fab-bd69-0f0fee314dfd"
+          }
+        ],
+        "false": []
+      },
+      "id": "e12f3bb7-2d31-4e6f-86ec-7d1356f520db"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 30
+      },
+      "id": "7dc62c48-472a-41eb-a197-24706764dff1"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a18e1346-aa47-4473-bfa7-a569478c2499"
+    }
+  ],
+  "x": 36,
+  "y": 40,
+  "_index": 5
+}

@@ -30,6 +30,74 @@
       "id": "50a40ac2-565b-42f7-b1c5-fbbf5e105b7c__L0",
       "name": "Local 0",
       "symbol": "var_local_4"
+    },
+    {
+      "id": "cf881925-9cb3-4201-a99b-bc4a4a0244fa__L0",
+      "name": "Portas",
+      "symbol": "var_portas",
+      "flags": {
+        "flag1": "Porta 1"
+      }
+    },
+    {
+      "id": "e5bb87a5-fb74-455e-bd02-436b43d64045__L0",
+      "name": "Portas",
+      "symbol": "var_portas_0"
+    },
+    {
+      "id": "a96b7a0a-3555-495d-983b-2c7ebf2e476f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "febbf213-f3a9-47ae-8905-59c41e00db52__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "2d15fe23-6e2f-4797-98e5-d90ce252fbe9__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "a9658104-2ff1-4fb2-8121-dacf2117ea37__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "2bf4350c-cf63-4e6d-80c9-e5fb2b865bd0__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "6e2822b4-ed09-436a-8056-5ce11a4ba3cf__L0",
+      "name": "Local 0",
+      "symbol": "var_local_10"
+    },
+    {
+      "id": "d1f298c7-00e2-4f18-98f3-57fa33ced006__L0",
+      "name": "Local 0",
+      "symbol": "var_local_11"
+    },
+    {
+      "id": "d7584707-b7bb-4ea6-bb5d-9cede909a3fe__L0",
+      "name": "Local 0",
+      "symbol": "var_local_12"
+    },
+    {
+      "id": "9d64ed91-71b5-47a4-9216-dc62d5df0eca__L0",
+      "name": "Local 0",
+      "symbol": "var_local_13"
+    },
+    {
+      "id": "3",
+      "name": "Escondido",
+      "symbol": "var_escondido_0"
+    },
+    {
+      "id": "4",
+      "name": "Bonecos",
+      "symbol": "var_bonecos"
     }
   ]
 }
