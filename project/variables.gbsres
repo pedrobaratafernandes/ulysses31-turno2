@@ -98,6 +98,11 @@
       "id": "4",
       "name": "Bonecos",
       "symbol": "var_bonecos"
+    },
+    {
+      "id": "5",
+      "name": "Path",
+      "symbol": "var_path"
     }
   ]
 }
