@@ -1,21 +1,21 @@
 {
   "_resourceType": "trigger",
-  "id": "04ee4135-459f-4f6c-996c-c448e4987164",
+  "id": "67dee0d6-b345-498f-af18-a9452ab7a18a",
   "name": "",
   "prefabId": "",
-  "x": 23,
-  "y": 2,
-  "symbol": "trigger_2",
+  "x": 20,
+  "y": 28,
+  "symbol": "trigger_4",
   "prefabScriptOverrides": {},
-  "width": 5,
-  "height": 2,
+  "width": 3,
+  "height": 5,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "player"
       },
-      "id": "91c0406a-7a80-4b4d-a3e8-05a18c28e166"
+      "id": "08e930d6-fd02-4b4e-8b29-48c1aa5561e7"
     }
   ],
   "leaveScript": [
@@ -24,8 +24,8 @@
       "args": {
         "actorId": "$self$"
       },
-      "id": "2c52d460-9c12-428c-8f85-2caf9635f4b7"
+      "id": "fa30a54c-47d0-4eaf-aa1f-d5db88eaadd7"
     }
   ],
-  "_index": 0
+  "_index": 2
 }
