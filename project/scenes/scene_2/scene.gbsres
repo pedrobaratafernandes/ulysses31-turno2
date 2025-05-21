@@ -192,14 +192,9 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_GET_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "vectorX": "1",
-              "vectorY": "2",
-              "__collapse": false
-            },
-            "id": "f178865d-2969-4854-83de-2fa1360d70ca"
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "3bf68b8a-ffcb-4b35-8d85-055059e451ac"
           },
           {
             "command": "EVENT_SWITCH_SCENE",

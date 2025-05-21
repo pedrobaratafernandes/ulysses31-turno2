@@ -34,19 +34,7 @@
       "id": "b50df849-1af5-4b7b-ba66-159c8360f99b"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_SET_DIRECTION",
-      "args": {
-        "actorId": "$self$",
-        "direction": {
-          "type": "direction",
-          "value": "up"
-        }
-      },
-      "id": "4a54822c-ae23-4484-adcb-1410951e571b"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

@@ -28,14 +28,9 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_GET_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "vectorX": "1",
-              "vectorY": "2",
-              "__collapse": false
-            },
-            "id": "c6ffde66-35d2-40e0-8e5c-4194791c2191"
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "2b4441de-e7c5-4a93-84f3-eea2f7d2f621"
           },
           {
             "command": "EVENT_SWITCH_SCENE",

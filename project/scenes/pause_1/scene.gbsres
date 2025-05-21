@@ -28,21 +28,11 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_SCENE_POP_STATE",
             "args": {
-              "sceneId": "a39e2403-a0b8-4025-9092-0dce122ec7e0",
-              "x": {
-                "type": "variable",
-                "value": "1"
-              },
-              "y": {
-                "type": "variable",
-                "value": "2"
-              },
-              "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "f6fed30a-8fce-451d-8204-ea6e1d4f0568"
+            "id": "b9f3a2be-7f9d-492d-a467-539b4a261a19"
           }
         ]
       },
