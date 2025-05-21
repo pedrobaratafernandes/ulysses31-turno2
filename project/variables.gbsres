@@ -98,6 +98,16 @@
       "id": "4",
       "name": "Bonecos",
       "symbol": "var_bonecos"
+    },
+    {
+      "id": "5",
+      "name": "Path",
+      "symbol": "var_path"
+    },
+    {
+      "id": "09e12c0f-c05b-4466-8c15-9e1e55620a6a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_14"
     }
   ]
 }

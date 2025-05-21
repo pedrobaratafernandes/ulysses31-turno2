@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "5947b688-5e88-4eef-b6b9-0681bfc00dce",
+  "id": "2ee250a4-3101-42a5-ae91-414b690644a2",
   "name": "",
   "prefabId": "",
   "x": 0,
-  "y": 14,
-  "symbol": "trigger_1",
+  "y": 38,
+  "symbol": "trigger_11",
   "prefabScriptOverrides": {},
   "width": 20,
   "height": 1,
@@ -13,22 +13,22 @@
     {
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
-        "actorId": "99800799-3f64-441f-8d2a-f84104733e67",
+        "actorId": "0aacf880-def2-4fb4-b359-c8a7e95159fb",
         "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
         "__collapse": false
       },
-      "id": "8ef7b995-dd35-4fe3-a80b-a885fa76d3a6"
+      "id": "2f3aea68-9def-43df-bc72-b31387fd8fc8"
     },
     {
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
-        "actorId": "df46ce0a-5cd0-473d-84d3-978db7021414",
+        "actorId": "3731ece7-86ee-42a8-b6d5-8ae56c287bc3",
         "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
         "__collapse": false
       },
-      "id": "fae7ffda-cfc4-497a-8f9c-0f1b9272ca47"
+      "id": "18c53270-6013-4c94-a85f-44a062074397"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 3
 }
