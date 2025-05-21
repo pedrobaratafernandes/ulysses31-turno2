@@ -20,6 +20,16 @@
       "id": "7b14371b-5f49-4feb-aa6a-f2228bf4b09f__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "4af91b66-73ae-4ee6-a2da-6c9c935e9708__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "50a40ac2-565b-42f7-b1c5-fbbf5e105b7c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
     }
   ]
 }

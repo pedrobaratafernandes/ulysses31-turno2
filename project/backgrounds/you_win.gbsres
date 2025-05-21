@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7d8b00b2-1cde-4fb1-aa50-e626d6348457",
+  "name": "You_Win",
+  "symbol": "bg_you_win",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "You_Win.png",
+  "tileColors": ""
+}

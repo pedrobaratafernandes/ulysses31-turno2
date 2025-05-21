@@ -12,7 +12,7 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "1",
+  "collisionGroup": "2",
   "prefabScriptOverrides": {},
   "symbol": "actor_1",
   "script": [],
@@ -51,60 +51,30 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_IF",
+            "command": "EVENT_ACTOR_GET_POSITION",
             "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L2"
-                },
-                "valueB": {
-                  "type": "false"
-                }
+              "actorId": "player",
+              "vectorX": "L4",
+              "vectorY": "L5"
+            },
+            "id": "0f4168cd-47c5-4705-ab04-1b36ec991808"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L4"
               },
-              "__collapseElse": false
+              "y": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "moveType": "horizontal",
+              "useCollisions": true
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_ACTOR_GET_POSITION",
-                  "args": {
-                    "actorId": "player",
-                    "vectorX": "L4",
-                    "vectorY": "L5"
-                  },
-                  "id": "0f4168cd-47c5-4705-ab04-1b36ec991808"
-                },
-                {
-                  "command": "EVENT_ACTOR_MOVE_TO",
-                  "args": {
-                    "actorId": "$self$",
-                    "x": {
-                      "type": "variable",
-                      "value": "L4"
-                    },
-                    "y": {
-                      "type": "variable",
-                      "value": "L5"
-                    },
-                    "moveType": "horizontal",
-                    "useCollisions": false
-                  },
-                  "id": "f1d8454e-d503-42e8-a22d-279acaefdd9a"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_ACTOR_MOVE_CANCEL",
-                  "args": {
-                    "actorId": "$self$"
-                  },
-                  "id": "f1083c5c-b175-4148-89f7-a99e6412bd60"
-                }
-              ]
-            },
-            "id": "ecec8d5c-e3e7-41c9-87e6-7fb458c2098d"
+            "id": "f1d8454e-d503-42e8-a22d-279acaefdd9a"
           }
         ],
         "false": [

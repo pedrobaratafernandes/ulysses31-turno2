@@ -17,17 +17,10 @@
   "y": 152,
   "script": [
     {
-      "command": "EVENT_COMMENT",
-      "args": {
-        "text": "Código de pistola e de espada, incluindo botão de mudar de arma"
-      },
-      "id": "5ee8a8e0-35f3-4d4b-98c7-e2d9ebbdef5c"
-    },
-    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "b"
+          "start"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -35,154 +28,57 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_IF",
+            "command": "EVENT_ACTOR_GET_POSITION",
             "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "0"
-                },
-                "valueB": {
-                  "type": "true"
-                }
-              },
-              "__collapseElse": false,
+              "actorId": "$self$",
+              "vectorX": "1",
+              "vectorY": "2",
               "__collapse": false
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_LAUNCH_PROJECTILE",
-                  "args": {
-                    "__section": "projectile",
-                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-                    "spriteStateId": "",
-                    "actorId": "$self$",
-                    "x": 0,
-                    "y": 0,
-                    "directionType": "actor",
-                    "otherActorId": "$self$",
-                    "direction": "right",
-                    "angle": 0,
-                    "angleVariable": "L0",
-                    "targetActorId": "$self$",
-                    "initialOffset": 0,
-                    "speed": 2,
-                    "animSpeed": 15,
-                    "lifeTime": 2,
-                    "loopAnim": true,
-                    "destroyOnHit": true,
-                    "collisionGroup": "3",
-                    "collisionMask": [
-                      "1"
-                    ]
-                  },
-                  "id": "937153dd-0f75-428c-9688-282d03702cfb"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_LAUNCH_PROJECTILE",
-                  "args": {
-                    "__section": "projectile",
-                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-                    "spriteStateId": "",
-                    "actorId": "$self$",
-                    "x": 0,
-                    "y": 0,
-                    "directionType": "actor",
-                    "otherActorId": "$self$",
-                    "direction": "right",
-                    "angle": 0,
-                    "angleVariable": "L0",
-                    "targetActorId": "$self$",
-                    "initialOffset": 0,
-                    "speed": 2,
-                    "animSpeed": 15,
-                    "lifeTime": 0.1,
-                    "loopAnim": true,
-                    "destroyOnHit": true,
-                    "collisionGroup": "3",
-                    "collisionMask": [
-                      "1"
-                    ]
-                  },
-                  "id": "2b069374-7ee8-42e0-b14f-abf8677d900f"
-                }
-              ]
-            },
-            "id": "c40011cd-86eb-4dfe-b5da-dfcbf1399fb0"
-          }
-        ]
-      },
-      "id": "7097280d-5f21-4af4-a63d-47538f22ccf5"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "select"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": false
-      },
-      "children": {
-        "true": [
+            "id": "c6ffde66-35d2-40e0-8e5c-4194791c2191"
+          },
           {
-            "command": "EVENT_IF",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "condition": {
-                "type": "not",
-                "value": {
-                  "type": "eq",
-                  "valueA": {
-                    "type": "variable",
-                    "value": "0"
-                  },
-                  "valueB": {
-                    "type": "true"
-                  }
-                }
+              "sceneId": "4af91b66-73ae-4ee6-a2da-6c9c935e9708",
+              "x": {
+                "type": "number",
+                "value": 0
               },
-              "__collapseElse": false
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "0",
-                    "value": {
-                      "type": "true"
-                    }
-                  },
-                  "id": "c99153b3-86e0-4a2b-9570-996ba0685ce3"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "0",
-                    "value": {
-                      "type": "false"
-                    }
-                  },
-                  "id": "ba3d454a-b5e7-4097-9023-77b01fd9c954"
-                }
-              ]
-            },
-            "id": "1705c16f-4409-4b4a-a76b-dfc3389da229"
+            "id": "064a2107-58a6-498b-ac2a-c113f0044718"
           }
         ]
       },
-      "id": "4a3da340-b381-405d-877f-6a9e43db39f1"
+      "id": "eee380ce-3f68-4a25-b8d8-e0cfc0e057b8"
     }
   ],
   "playerHit1Script": [],
-  "playerHit2Script": [],
+  "playerHit2Script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3ce837f0-90b8-4358-ad02-2f12f5aa206f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "52b9e1b6-c2d6-475b-b243-d36775987af8"
+    }
+  ],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "5d68ca19-21a0-4db1-a13b-b4d57b7a1d1f"
+  "playerSpriteSheetId": "5f4b11be-efc9-4617-938c-63fd68db9ada"
 }
