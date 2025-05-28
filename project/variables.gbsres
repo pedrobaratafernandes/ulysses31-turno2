@@ -118,6 +118,11 @@
       "id": "36a2d494-8b4e-40cb-a8a2-36bc37ab942e__L0",
       "name": "Local 0",
       "symbol": "var_local_16"
+    },
+    {
+      "id": "d818132a-e6fa-4af0-b6bd-bd5056df9d42__L0",
+      "name": "Local 0",
+      "symbol": "var_local_17"
     }
   ]
 }

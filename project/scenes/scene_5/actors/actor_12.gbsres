@@ -7,11 +7,11 @@
   "spriteSheetId": "5a23bb28-f07c-4b0e-84b4-e9394eb939ff",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 0.5,
+  "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "2",
   "prefabScriptOverrides": {},
   "symbol": "actor_17",
@@ -32,7 +32,8 @@
     {
       "command": "EVENT_COMMENT",
       "args": {
-        "text": "Script que faz o inimigo mover para o jogador caso o mesmo esteja na área do inimigo, e caso leve um tiro, não reage."
+        "text": "Script que faz o inimigo mover para o jogador caso o mesmo esteja na área do inimigo, e caso leve um tiro, não reage.",
+        "__collapse": true
       },
       "id": "4d4a04f7-bb97-45ae-9f5c-ec431c743601"
     },

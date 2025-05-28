@@ -4,14 +4,14 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "5a23bb28-f07c-4b0e-84b4-e9394eb939ff",
+  "spriteSheetId": "cccfbeff-9e94-4704-9f91-52d0d7cc7c38",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 0.5,
+  "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "2",
   "prefabScriptOverrides": {},
   "symbol": "actor_16",
@@ -313,11 +313,11 @@
               "sceneId": "4fef68a4-54fd-4059-8333-04d3338dba7d",
               "x": {
                 "type": "number",
-                "value": 7
+                "value": 11
               },
               "y": {
                 "type": "number",
-                "value": 9
+                "value": 6
               },
               "direction": "",
               "fadeSpeed": "2"
