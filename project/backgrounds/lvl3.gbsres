@@ -8,5 +8,6 @@
   "imageWidth": 384,
   "imageHeight": 384,
   "filename": "lvl3.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
