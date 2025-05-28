@@ -29,7 +29,25 @@
     }
   ],
   "playerHit1Script": [],
-  "playerHit2Script": [],
+  "playerHit2Script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3c1733ca-8da2-4ede-9506-a10f347cf780",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "ae057525-2f9d-440a-b577-398ad520efd2"
+    }
+  ],
   "playerHit3Script": [],
   "playerSpriteSheetId": "5f4b11be-efc9-4617-938c-63fd68db9ada"
 }

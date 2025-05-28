@@ -1,51 +1,63 @@
 {
   "_resourceType": "trigger",
-  "id": "b56f7a3b-0ddb-4f2d-9a99-2d9634840751",
+  "id": "8f9d60fc-45dd-4cb3-9506-9524e83e73ac",
   "name": "",
   "prefabId": "",
-  "x": 12,
-  "y": 14,
-  "symbol": "trigger_0",
+  "x": 14,
+  "y": 34,
+  "symbol": "trigger_17",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 8,
+  "width": 1,
+  "height": 12,
   "script": [
     {
-      "command": "EVENT_ACTOR_HIDE",
+      "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
-        "actorId": "player"
+        "actorId": "546036da-3fd9-4b0a-9f55-857ceceb51bb",
+        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
       },
-      "id": "5176c56e-bf8b-4fed-93a0-ddc8e1fd265f"
+      "id": "085f8a63-d3b5-4dc3-9a74-9076cb3fa8cd"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
-        "variable": "3",
-        "value": {
-          "type": "true"
-        }
+        "actorId": "738f440a-0ce8-4619-9f50-725a9f602304",
+        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
       },
-      "id": "4c8dc9ec-af7d-4b8b-a96f-68899a0bf061"
-    }
-  ],
-  "leaveScript": [
-    {
-      "command": "EVENT_ACTOR_SHOW",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "d4d11cb2-e7dc-46e4-8c5c-0410509b4a8e"
+      "id": "26afdfa0-36c3-49c5-b0e1-7fcb39350366"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
-        "variable": "3",
-        "value": {
-          "type": "false"
-        }
+        "actorId": "a2d02a83-cc99-4500-977d-b37a411b004c",
+        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
       },
-      "id": "3f879ab1-f1df-42eb-9f35-9d6a9a97bd7a"
+      "id": "3b371c2c-b1b3-4845-8686-89e8b814936d"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "4",
+        "flag1": false,
+        "flag2": false,
+        "flag3": true,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "79afa539-8d13-4478-b6e8-52e11c4eeea6"
     }
   ],
+  "leaveScript": [],
   "_index": 0
 }
