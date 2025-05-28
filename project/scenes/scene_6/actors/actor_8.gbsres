@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "d818132a-e6fa-4af0-b6bd-bd5056df9d42",
+  "id": "4869fc45-5296-4231-b34c-7c6e8e13f125",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": true,
   "collisionGroup": "2",
   "prefabScriptOverrides": {},
-  "symbol": "actor_18",
+  "symbol": "actor_9",
   "script": [],
   "startScript": [
     {
@@ -25,7 +25,7 @@
           "type": "false"
         }
       },
-      "id": "b42a027c-2a18-4f2a-82ed-c90e3f947f7b"
+      "id": "0ea77146-bca6-4b57-acc9-5b643e8ceed8"
     }
   ],
   "updateScript": [
@@ -34,7 +34,7 @@
       "args": {
         "text": "Script que faz o inimigo mover para o jogador caso o mesmo esteja na área do inimigo, e caso leve um tiro, não reage."
       },
-      "id": "8fd963fb-c91c-42b1-a0cc-7f7369134c4d"
+      "id": "7410c8ac-7196-44dd-a090-33b1614c7a27"
     },
     {
       "command": "EVENT_IF",
@@ -52,7 +52,7 @@
             "args": {
               "actorId": "$self$"
             },
-            "id": "145285c7-b97e-4839-a720-4a75f00414fb"
+            "id": "0cda6886-d0ca-4830-829e-6474bc0b62b2"
           },
           {
             "command": "EVENT_ACTOR_GET_POSITION",
@@ -61,7 +61,7 @@
               "vectorX": "L4",
               "vectorY": "L5"
             },
-            "id": "aadcb6e1-7b5f-425d-9803-f363f8c34070"
+            "id": "6034500b-b08d-427c-b402-8875aa6cf2d9"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -78,19 +78,19 @@
               "moveType": "horizontal",
               "useCollisions": true
             },
-            "id": "a7397fb3-aa73-42dd-b261-b8fa30ccf144"
+            "id": "1280747a-5dac-476d-b3ea-43be141b091f"
           }
         ],
         "false": []
       },
-      "id": "ab4f17af-107f-4d51-bc4b-98cd2b37881a"
+      "id": "2df14fde-7d64-4842-bcd0-5d24f7ce1042"
     },
     {
       "command": "EVENT_COMMENT",
       "args": {
         "text": "Path"
       },
-      "id": "61905777-98a1-4014-a742-2357641bfe18"
+      "id": "abc4fd16-ca37-46a8-8661-557d1e51b90e"
     },
     {
       "command": "EVENT_IF",
@@ -111,7 +111,7 @@
             "args": {
               "actorId": "$self$"
             },
-            "id": "62f1618b-17cb-4673-bbf1-0e059f74cb65"
+            "id": "941bfdd5-d3b1-42e2-aa5e-d27b5035ed2c"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -119,7 +119,7 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 39
+                "value": 31
               },
               "y": {
                 "type": "number",
@@ -128,7 +128,7 @@
               "moveType": "horizontal",
               "useCollisions": false
             },
-            "id": "056de386-3d7c-45f3-b651-c85de1ad270b"
+            "id": "f5bf3ad0-4a87-4acd-937d-01fbe0becfbc"
           },
           {
             "command": "EVENT_WAIT",
@@ -136,7 +136,7 @@
               "time": 0.5,
               "frames": 30
             },
-            "id": "cc8ef031-acd5-4a7f-af08-65f12ddfe98a"
+            "id": "3af3ad9e-b1e4-46e0-9993-9899edf74786"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -144,71 +144,38 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 39
+                "value": 31
               },
               "y": {
                 "type": "number",
-                "value": 42
+                "value": 55
               },
               "moveType": "horizontal",
               "useCollisions": false
             },
-            "id": "f4d31229-d0f8-44f9-89ff-679545892bd5"
+            "id": "59fd9e22-d3b5-46ad-943f-76bf0f148302"
           },
           {
-            "command": "EVENT_WAIT",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "time": 0.5,
-              "frames": 30
-            },
-            "id": "2fd81516-3af7-455e-984b-9c27d0fd735f"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "actorId": "$self$",
+              "sceneId": "4fef68a4-54fd-4059-8333-04d3338dba7d",
               "x": {
                 "type": "number",
-                "value": 6
-              },
-              "y": {
-                "type": "number",
-                "value": 42
-              },
-              "moveType": "horizontal",
-              "useCollisions": false
-            },
-            "id": "04f0bb31-b1ba-406c-83be-cf09fe522a36"
-          },
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": 0.5,
-              "frames": 30
-            },
-            "id": "0aaea00c-cdb1-44fe-9ab2-64bb27313785"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 6
+                "value": 11
               },
               "y": {
                 "type": "number",
                 "value": 6
               },
-              "moveType": "horizontal",
-              "useCollisions": false
+              "direction": "",
+              "fadeSpeed": "2"
             },
-            "id": "59058c1b-c834-499e-8c2b-d0f4a6a88a34"
+            "id": "478c3273-917b-4f57-8d06-5a461c0f89a8"
           }
         ],
         "false": []
       },
-      "id": "4a9171ce-5abf-47b6-9198-fd65eff8c20f"
+      "id": "1f7ea576-98af-4780-85e9-31461b02d7df"
     }
   ],
   "hit1Script": [],
@@ -222,7 +189,7 @@
           "type": "true"
         }
       },
-      "id": "cd927beb-fdf4-4963-929f-dc67f08ab2be"
+      "id": "3b88f450-d15c-42b0-bce2-390f26ba93fe"
     },
     {
       "command": "EVENT_WAIT",
@@ -230,7 +197,7 @@
         "time": 1,
         "frames": 30
       },
-      "id": "73b22ae3-1b46-4f6f-b5bc-7c13d8e5a243"
+      "id": "ec5f2ba4-20e5-486b-83b8-aed00d1b3678"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -240,10 +207,10 @@
           "type": "false"
         }
       },
-      "id": "8da4a8ea-c896-4679-a362-28acad58461a"
+      "id": "c6ec1f3a-1e5e-409c-844c-7029ca840350"
     }
   ],
-  "x": 6,
-  "y": 6,
-  "_index": 8
+  "x": 11,
+  "y": 8,
+  "_index": 7
 }

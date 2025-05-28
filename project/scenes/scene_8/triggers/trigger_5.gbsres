@@ -1,63 +1,37 @@
 {
   "_resourceType": "trigger",
-  "id": "8f9d60fc-45dd-4cb3-9506-9524e83e73ac",
+  "id": "1b2d6619-33a5-4a26-a1a6-de1f2a609998",
   "name": "",
   "prefabId": "",
-  "x": 14,
-  "y": 34,
-  "symbol": "trigger_17",
+  "x": 30,
+  "y": 44,
+  "symbol": "trigger_8",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 12,
+  "width": 6,
+  "height": 2,
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_SPRITE",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "actorId": "546036da-3fd9-4b0a-9f55-857ceceb51bb",
-        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+        "variable": "5",
+        "value": {
+          "type": "true"
+        }
       },
-      "id": "085f8a63-d3b5-4dc3-9a74-9076cb3fa8cd"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_SPRITE",
-      "args": {
-        "actorId": "738f440a-0ce8-4619-9f50-725a9f602304",
-        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
-      },
-      "id": "26afdfa0-36c3-49c5-b0e1-7fcb39350366"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_SPRITE",
-      "args": {
-        "actorId": "a2d02a83-cc99-4500-977d-b37a411b004c",
-        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
-      },
-      "id": "3b371c2c-b1b3-4845-8686-89e8b814936d"
-    },
-    {
-      "command": "EVENT_ADD_FLAGS",
-      "args": {
-        "variable": "4",
-        "flag1": false,
-        "flag2": false,
-        "flag3": true,
-        "flag4": false,
-        "flag5": false,
-        "flag6": false,
-        "flag7": false,
-        "flag8": false,
-        "flag9": false,
-        "flag10": false,
-        "flag11": false,
-        "flag12": false,
-        "flag13": false,
-        "flag14": false,
-        "flag15": false,
-        "flag16": false
-      },
-      "id": "79afa539-8d13-4478-b6e8-52e11c4eeea6"
+      "id": "5e0670c3-8b6f-4e36-986e-39a1b812795d"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "9c15894e-4320-45ea-b3aa-b2a37d59ccdd"
+    }
+  ],
   "_index": 4
 }

@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "",
   "x": 2,
-  "y": 49,
+  "y": 47,
   "symbol": "trigger_13",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -16,7 +16,7 @@
         "sceneId": "ee0d79ad-a243-4bf7-a0ee-886ab13b2317",
         "x": {
           "type": "number",
-          "value": 13
+          "value": 18
         },
         "y": {
           "type": "number",

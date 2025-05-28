@@ -1,50 +1,36 @@
 {
   "_resourceType": "trigger",
-  "id": "af85363b-8d56-4732-8645-cb832a23616b",
+  "id": "690219db-3368-4b78-892e-1dad93b4e2b9",
   "name": "",
   "prefabId": "",
-  "x": 35,
-  "y": 28,
+  "x": 8,
+  "y": 54,
   "symbol": "trigger_5",
   "prefabScriptOverrides": {},
-  "width": 3,
-  "height": 5,
+  "width": 8,
+  "height": 2,
   "script": [
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "player"
-      },
-      "id": "7850eccd-1826-4522-9a39-c63a786395d6"
-    },
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "3",
+        "variable": "5",
         "value": {
           "type": "true"
         }
       },
-      "id": "9aac3a40-f488-4740-9b69-96f741f5ac41"
+      "id": "31e18404-2e74-4e42-9db0-1be07fa88d62"
     }
   ],
   "leaveScript": [
     {
-      "command": "EVENT_ACTOR_SHOW",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "c50d603d-e684-466b-ab31-551f3a93e142"
-    },
-    {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "3",
+        "variable": "5",
         "value": {
           "type": "false"
         }
       },
-      "id": "a3b48a4b-c149-4684-9743-6b585f1737ec"
+      "id": "74aac457-4a63-4579-98dd-8d918224b961"
     }
   ],
   "_index": 3

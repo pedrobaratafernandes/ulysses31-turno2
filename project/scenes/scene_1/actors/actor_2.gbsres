@@ -51,6 +51,16 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "ab849508-2f69-42b5-9f87-45b3749204eb"
+          },
+          {
             "command": "EVENT_ACTOR_GET_POSITION",
             "args": {
               "actorId": "player",
@@ -84,6 +94,16 @@
               "actorId": "$self$"
             },
             "id": "4d41b33b-b84a-44dd-b6c5-d0ec089491a8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "7e9934ae-7c34-4ee0-b92e-a8fde4cef5dc"
           }
         ]
       },
@@ -96,6 +116,31 @@
         "frames": 30
       },
       "id": "3204ce1d-4058-4610-bbf9-4cf33f370894"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Path"
+      },
+      "id": "6d61a5e5-8e83-4a8d-949f-250597618ab3"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "5"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "60bc2eac-e118-46b5-8ac5-e9ce2f6a7c09"
     }
   ],
   "hit1Script": [],

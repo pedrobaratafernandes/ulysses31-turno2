@@ -7,6 +7,21 @@
       "symbol": "var_arma"
     },
     {
+      "id": "3",
+      "name": "Escondido",
+      "symbol": "var_escondido_0"
+    },
+    {
+      "id": "4",
+      "name": "Bonecos",
+      "symbol": "var_bonecos"
+    },
+    {
+      "id": "5",
+      "name": "Path",
+      "symbol": "var_path"
+    },
+    {
       "id": "a39e2403-a0b8-4025-9092-0dce122ec7e0__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
@@ -90,24 +105,29 @@
       "symbol": "var_local_13"
     },
     {
-      "id": "3",
-      "name": "Escondido",
-      "symbol": "var_escondido_0"
-    },
-    {
-      "id": "4",
-      "name": "Bonecos",
-      "symbol": "var_bonecos"
-    },
-    {
-      "id": "5",
-      "name": "Path",
-      "symbol": "var_path"
-    },
-    {
       "id": "09e12c0f-c05b-4466-8c15-9e1e55620a6a__L0",
       "name": "Local 0",
       "symbol": "var_local_14"
+    },
+    {
+      "id": "386d4c73-8f0e-4ca2-b49d-3cb0514a63a2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_15"
+    },
+    {
+      "id": "36a2d494-8b4e-40cb-a8a2-36bc37ab942e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_16"
+    },
+    {
+      "id": "d818132a-e6fa-4af0-b6bd-bd5056df9d42__L0",
+      "name": "Local 0",
+      "symbol": "var_local_17"
+    },
+    {
+      "id": "4869fc45-5296-4231-b34c-7c6e8e13f125__L0",
+      "name": "Local 0",
+      "symbol": "var_local_18"
     }
   ]
 }
