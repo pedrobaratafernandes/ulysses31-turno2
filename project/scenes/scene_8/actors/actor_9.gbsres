@@ -37,28 +37,22 @@
       "id": "8fd963fb-c91c-42b1-a0cc-7f7369134c4d"
     },
     {
-      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "player",
-        "operator": "<",
-        "distance": {
-          "type": "number",
-          "value": 6
+        "condition": {
+          "type": "variable",
+          "value": "5"
         },
-        "otherActorId": "$self$",
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_VALUE",
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
             "args": {
-              "variable": "5",
-              "value": {
-                "type": "true"
-              }
+              "actorId": "$self$"
             },
-            "id": "0c72e18b-9917-43a6-8a1c-7d8f206344bb"
+            "id": "145285c7-b97e-4839-a720-4a75f00414fb"
           },
           {
             "command": "EVENT_ACTOR_GET_POSITION",
@@ -87,35 +81,9 @@
             "id": "a7397fb3-aa73-42dd-b261-b8fa30ccf144"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_ACTOR_MOVE_CANCEL",
-            "args": {
-              "actorId": "$self$"
-            },
-            "id": "a37ec698-9c11-4aa9-b02d-787069a0f49d"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "5",
-              "value": {
-                "type": "false"
-              }
-            },
-            "id": "12d61841-b27b-4b89-a55d-57e30acf6a2f"
-          }
-        ]
+        "false": []
       },
-      "id": "ce9970f3-3dea-450c-965c-5c34d83caffe"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.1,
-        "frames": 30
-      },
-      "id": "a612176f-20f2-48d1-bbc3-800a80608c47"
+      "id": "ab4f17af-107f-4d51-bc4b-98cd2b37881a"
     },
     {
       "command": "EVENT_COMMENT",
@@ -138,6 +106,13 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "62f1618b-17cb-4673-bbf1-0e059f74cb65"
+          },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
