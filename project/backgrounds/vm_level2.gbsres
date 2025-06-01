@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b569f632-f3b0-4131-9f02-adaed2b2842d",
+  "name": "VM_Level2",
+  "symbol": "bg_vm_level2",
+  "width": 42,
+  "height": 60,
+  "imageWidth": 336,
+  "imageHeight": 480,
+  "filename": "VM_Level2.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -128,6 +128,11 @@
       "id": "4869fc45-5296-4231-b34c-7c6e8e13f125__L0",
       "name": "Local 0",
       "symbol": "var_local_18"
+    },
+    {
+      "id": "7442b240-750a-4706-8667-39f55fd060da__L0",
+      "name": "Local 0",
+      "symbol": "var_local_19"
     }
   ]
 }
