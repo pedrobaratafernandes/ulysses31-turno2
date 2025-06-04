@@ -3,11 +3,11 @@
   "id": "5f4b11be-efc9-4617-938c-63fd68db9ada",
   "name": "telemachus",
   "symbol": "sprite_telemachus",
-  "numFrames": 3.125,
+  "numFrames": 4,
   "filename": "telemachus.png",
-  "checksum": "02055061704d8da0e1efba0c5fdbecca3e60497f",
-  "width": 50,
-  "height": 16,
+  "checksum": "1777a560afc12b755fa0824bf72963fccc69318d",
+  "width": 64,
+  "height": 48,
   "states": [
     {
       "id": "9affde83-03ad-4f6b-84c7-fad2e4114165",
