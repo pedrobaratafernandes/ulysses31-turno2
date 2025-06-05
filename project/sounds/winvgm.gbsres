@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "8637426a-5a81-4dee-94ac-6b0d15f2db82",
+  "name": "win.vgm",
+  "symbol": "sound_win_vgm",
+  "filename": "win.vgm",
+  "type": "vgm"
+}

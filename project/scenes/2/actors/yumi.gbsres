@@ -21,7 +21,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "yumi seguir o jogador"
       },
       "children": {
@@ -67,7 +67,7 @@
                       "target": "player",
                       "property": "ypos"
                     },
-                    "moveType": "diagonal",
+                    "moveType": "horizontal",
                     "useCollisions": false
                   },
                   "id": "db08347c-28b8-4ef2-89a6-c7e5db8deb01"
@@ -118,7 +118,7 @@
                       "target": "player",
                       "property": "ypos"
                     },
-                    "moveType": "diagonal",
+                    "moveType": "horizontal",
                     "useCollisions": false
                   },
                   "id": "fb72d952-77c8-4efb-ac96-35186c3f18e5"
@@ -171,7 +171,7 @@
                         "value": 3
                       }
                     },
-                    "moveType": "diagonal",
+                    "moveType": "horizontal",
                     "useCollisions": false
                   },
                   "id": "f54908b7-cdc7-492e-9f21-d2e85f3f2ee3"
@@ -222,7 +222,7 @@
                         "value": -3
                       }
                     },
-                    "moveType": "diagonal",
+                    "moveType": "horizontal",
                     "useCollisions": false
                   },
                   "id": "e3358898-94b1-4361-a52b-38766f5a3797"

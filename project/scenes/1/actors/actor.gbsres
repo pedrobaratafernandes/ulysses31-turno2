@@ -52,7 +52,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -77,8 +77,8 @@
                       "target": "player",
                       "property": "ypos"
                     },
-                    "moveType": "diagonal",
-                    "useCollisions": false
+                    "moveType": "horizontal",
+                    "useCollisions": true
                   },
                   "id": "5b4725df-3164-4f4e-b48d-2900963adc83"
                 }
@@ -103,7 +103,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -128,8 +128,8 @@
                       "target": "player",
                       "property": "ypos"
                     },
-                    "moveType": "diagonal",
-                    "useCollisions": false
+                    "moveType": "horizontal",
+                    "useCollisions": true
                   },
                   "id": "94c398c7-a6b1-42f1-8416-ad373fb48ec1"
                 }
@@ -156,7 +156,7 @@
               "__collapseElse": true,
               "__disableElse": true,
               "__comment": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -181,8 +181,8 @@
                         "value": 2
                       }
                     },
-                    "moveType": "diagonal",
-                    "useCollisions": false
+                    "moveType": "vertical",
+                    "useCollisions": true
                   },
                   "id": "c602e17d-c34b-45c4-ac74-cd5ed1b0531d"
                 }
@@ -207,7 +207,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -232,8 +232,8 @@
                         "value": -1
                       }
                     },
-                    "moveType": "diagonal",
-                    "useCollisions": false
+                    "moveType": "vertical",
+                    "useCollisions": true
                   },
                   "id": "33c7d064-5635-47d8-ac3a-c40068c11c50"
                 }

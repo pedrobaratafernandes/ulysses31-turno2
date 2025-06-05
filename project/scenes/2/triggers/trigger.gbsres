@@ -11,6 +11,19 @@
   "height": 14,
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "490c60df-a4ad-4ae1-9c1a-9ca668472fa2",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "32aea13f-fd3a-43aa-8013-72c464238a4e"
+    },
+    {
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "6f0bd7f6-f8fe-4529-a81d-606535665626",
@@ -24,7 +37,7 @@
       "args": {
         "actorId": "6032d0f9-4728-4c21-9a92-cdfb34f76710",
         "spriteSheetId": "4a4b5058-07b0-4b4b-9410-34763e173f01",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "a914cda9-f39a-4c98-b883-80dfb96528a9"
     }

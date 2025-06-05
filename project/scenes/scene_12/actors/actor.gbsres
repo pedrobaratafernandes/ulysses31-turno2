@@ -17,6 +17,35 @@
   "symbol": "actor_37",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "b1613232-6182-44bc-a7c3-d2749727916f",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "bf7bfb28-128f-4bb8-a195-50c86324ae21"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "player",
+        "spriteSheetId": "d0ef2cfa-3923-4514-b988-c5d36cb2b30f"
+      },
+      "id": "5f46acae-7bb7-4e0f-86dc-dfc8db04bc9d"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 4,
+        "frames": 30
+      },
+      "id": "f79e409b-4211-4b1f-88e1-650e143a3ef1"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "b6585d42-fab7-4d21-873e-da1e0e03fa27",
@@ -29,7 +58,8 @@
           "value": 25
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       },
       "id": "076b995d-c925-40c0-9377-bade34d1ccfd"
     }

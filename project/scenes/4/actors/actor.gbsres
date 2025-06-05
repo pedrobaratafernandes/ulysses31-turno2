@@ -26,7 +26,7 @@
           "value": "0"
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -72,7 +72,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 3
+            "value": 4
           }
         },
         "__collapseElse": true
@@ -80,16 +80,29 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "b1613232-6182-44bc-a7c3-d2749727916f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "3b6dac5a-5e62-462d-88ab-01ff971d8516"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "e27dfcc9-e0f0-4a67-8475-d0d940514cf0",
+              "sceneId": "2519ae3c-607a-46e5-a50f-e897589e4744",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 7
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 9
               },
               "direction": "",
               "fadeSpeed": "2",

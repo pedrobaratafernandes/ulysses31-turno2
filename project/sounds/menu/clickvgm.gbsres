@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "e3d7aac7-0095-431d-b108-08947ac86ac4",
+  "name": "Menu/Click.vgm",
+  "symbol": "sound_menu_click_vgm",
+  "filename": "Menu/Click.vgm",
+  "type": "vgm"
+}

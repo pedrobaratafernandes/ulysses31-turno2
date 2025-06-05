@@ -52,6 +52,26 @@
       "symbol": "var_inimigo2airsaida"
     },
     {
+      "id": "10",
+      "name": "inimigo1Combate",
+      "symbol": "var_inimigo1combate"
+    },
+    {
+      "id": "11",
+      "name": "inimigo2Combate",
+      "symbol": "var_inimigo2combate"
+    },
+    {
+      "id": "12",
+      "name": "inimigo3Combate",
+      "symbol": "var_inimigo3combate"
+    },
+    {
+      "id": "13",
+      "name": "mortes",
+      "symbol": "var_mortes"
+    },
+    {
       "id": "a39e2403-a0b8-4025-9092-0dce122ec7e0__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
@@ -170,24 +190,29 @@
       "symbol": "var_local_20"
     },
     {
-      "id": "10",
-      "name": "inimigo1Combate",
-      "symbol": "var_inimigo1combate"
+      "id": "14",
+      "name": "inimigo4Combate",
+      "symbol": "var_inimigo4combate"
     },
     {
-      "id": "11",
-      "name": "inimigo2Combate",
-      "symbol": "var_inimigo2combate"
+      "id": "15",
+      "name": "inimigo1Morto",
+      "symbol": "var_inimigo1morto"
     },
     {
-      "id": "12",
-      "name": "inimigo3Combate",
-      "symbol": "var_inimigo3combate"
+      "id": "16",
+      "name": "inimigo2Morto",
+      "symbol": "var_inimigo2morto"
     },
     {
-      "id": "13",
-      "name": "mortes",
-      "symbol": "var_mortes"
+      "id": "17",
+      "name": "inimigo3Morto",
+      "symbol": "var_inimigo3morto"
+    },
+    {
+      "id": "18",
+      "name": "inimigo4Morto",
+      "symbol": "var_inimigo4morto"
     }
   ]
 }

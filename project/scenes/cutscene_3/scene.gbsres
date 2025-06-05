@@ -1,29 +1,36 @@
 {
   "_resourceType": "scene",
-  "id": "e27dfcc9-e0f0-4a67-8475-d0d940514cf0",
-  "_index": 10,
-  "name": "CutScene 3",
-  "backgroundId": "cb5420ac-7235-49a7-b0f1-96b371cee657",
+  "id": "2519ae3c-607a-46e5-a50f-e897589e4744",
+  "_index": 5,
+  "name": "Cutscene 3",
+  "backgroundId": "49d0c7d8-19cd-421f-acf5-99677dcd8b3c",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "LOGO",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_13",
-  "x": 608,
-  "y": 704,
+  "symbol": "scene_11",
+  "x": 432,
+  "y": 496,
   "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "215e75b6-5749-4c22-9348-22bc2fad5bdc"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Thus, after being\nfree from the ",
-          "Gods control,\nUlysses regain",
-          "control of the\nOdyssey.",
-          "His travels among\nthe stars continue"
+          "Ulysses destroys\nthe manipulative\nforce and his",
+          "companions return\nto their",
+          "stasis unharmed. "
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,9 +48,16 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__comment": false
+        "__comment": true
       },
-      "id": "e9fba756-c65b-4142-9aba-227664d08303"
+      "id": "557b7a68-4b8d-4e21-995a-ee5c7726234b"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_IDLE\nVM_LOAD_TEXT 0\n\n; Define the text string in ASCII format\n.asciz \"Ulysses destroys \\nthe manipulative \\nforce and his\"\n \n\n\n; Move the overlay to the center of the screen (adjust coordinates as needed)\nVM_OVERLAY_MOVE_TO 0, 10, .OVERLAY_SPEED_INSTANT\nVM_OVERLAY_CLEAR 0, 0, 25, 5, .UI_COLOR_WHITE, .UI_AUTO_SCROLL \n; Render the text in Logo Mode\nVM_DISPLAY_TEXT_EX .DISPLAY_DEFAULT , 0\nVM_OVERLAY_WAIT .UI_MODAL, ^/(.UI_WAIT_WINDOW | .UI_WAIT_BTN_A )/\nVM_IDLE\nVM_LOAD_TEXT 0\n\n; Define the text string in ASCII format\n.asciz \"companions return\\n to their stasis\\n unharmed.\"\n \n\n\n; Move the overlay to the center of the screen (adjust coordinates as needed)\nVM_OVERLAY_MOVE_TO 0, 10, .OVERLAY_SPEED_INSTANT\n\n; Render the text in Logo Mode\nVM_DISPLAY_TEXT_EX .DISPLAY_DEFAULT , 0\nVM_OVERLAY_CLEAR 0, 0, 20, 5, .UI_COLOR_WHITE, .UI_AUTO_SCROLL \nVM_OVERLAY_WAIT .UI_MODAL, ^/(.UI_WAIT_WINDOW | .UI_WAIT_BTN_A )/\n"
+      },
+      "id": "3d1e13a7-5058-4742-8b1d-39894ffeccc2"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -51,20 +65,20 @@
         "sceneId": "c3e9bb6d-27fa-4260-b1f7-4cfe08e74084",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 11
         },
-        "direction": "",
-        "fadeSpeed": "2"
+        "direction": "down",
+        "fadeSpeed": "2",
+        "__comment": false
       },
-      "id": "026e2072-8356-4b05-b495-3a870ef24cd2"
+      "id": "303d6e09-4b3b-418c-9a59-cf20fc0a6a67"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
-  "playerSpriteSheetId": "bbff1704-d6a5-42a1-805f-c07a11fa40e3"
+  "playerHit3Script": []
 }

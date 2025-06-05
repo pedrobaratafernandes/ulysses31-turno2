@@ -45,7 +45,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 55
+                "value": 54
               },
               "moveType": "vertical",
               "useCollisions": false
@@ -76,6 +76,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 22,
-  "y": 57,
+  "y": 56,
   "_index": 11
 }

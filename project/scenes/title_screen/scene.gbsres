@@ -17,11 +17,27 @@
   "y": 152,
   "script": [
     {
+      "command": "EVENT_RESET_VARIABLES",
+      "args": {},
+      "id": "11b7ff88-0e32-4a9e-92fe-ae1b23e0b1c5"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "ca00758c-48cd-4739-a54a-5f4940438892"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "e7ed73f1-8411-4886-a948-afeaa180af76"
+      },
+      "id": "a6e12f4e-4c20-4027-99f6-e1c8f64117f2"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "start",
-          "a"
+          "start"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -31,14 +47,14 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "2519ae3c-607a-46e5-a50f-e897589e4744",
+              "sceneId": "e27dfcc9-e0f0-4a67-8475-d0d940514cf0",
               "x": {
                 "type": "number",
-                "value": 8
+                "value": 10
               },
               "y": {
                 "type": "number",
-                "value": 7
+                "value": 6
               },
               "direction": "",
               "fadeSpeed": "2"

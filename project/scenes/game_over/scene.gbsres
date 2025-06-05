@@ -17,6 +17,24 @@
   "y": 496,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "783c0c4c-d23c-42e3-9ed2-878f896453ae"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "ee9f8b1a-f8ad-4904-86ee-faf17f4647bd",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "90109486-d8e9-4433-900c-6754a4b010c7"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [

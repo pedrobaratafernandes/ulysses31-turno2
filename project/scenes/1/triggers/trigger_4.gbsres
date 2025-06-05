@@ -11,6 +11,19 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "490c60df-a4ad-4ae1-9c1a-9ca668472fa2",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "00a90c86-3d3e-4c94-b237-e6dd7daac767"
+    },
+    {
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "808c387b-4b16-4395-866c-825efaf81c61",

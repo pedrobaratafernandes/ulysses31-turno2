@@ -17,6 +17,38 @@
   "y": 152,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "5f0dcd5b-f4b3-44e7-9d2c-7122d4c47959"
+      },
+      "id": "771632d5-93d4-4dba-b766-d369df33e27c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Run, and if\nnecessary, hide."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "38398f93-8caa-4c69-9538-c4fa2d071147"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -56,6 +88,19 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "a2ca9727-8898-434f-b52f-73ca689dff8e",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "c279ef1d-8e6a-4b68-9a2d-45e29e21169a"
+    },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
