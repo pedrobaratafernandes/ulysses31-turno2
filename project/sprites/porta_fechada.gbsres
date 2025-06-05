@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "4a4b5058-07b0-4b4b-9410-34763e173f01",
-  "name": "coisosoo",
+  "name": "porta_fechada",
   "symbol": "sprite_coisosoo",
   "numFrames": 1,
-  "filename": "coisosoo.png",
+  "filename": "porta_fechada.png",
   "checksum": "973d860e9ca644eedd1aa4147506f77348564d84",
   "width": 16,
   "height": 16,

@@ -1,0 +1,99 @@
+{
+  "_resourceType": "actor",
+  "id": "38b5e2f0-e3c9-42b6-8510-ba4d25a927b0",
+  "name": "inimigo 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3a097ec1-581b-4e69-a5f8-e3bf91f690d3",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_39",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "98f830a9-3268-40d9-9e3e-9d00ae91f72f"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+            "args": {
+              "actorId": "player",
+              "operator": "<=",
+              "distance": {
+                "type": "number",
+                "value": 11
+              },
+              "otherActorId": "$self$",
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "xpos"
+                    },
+                    "y": {
+                      "type": "property",
+                      "target": "player",
+                      "property": "ypos"
+                    },
+                    "moveType": "vertical",
+                    "useCollisions": false
+                  },
+                  "id": "e9245867-e2f1-4fa4-a993-5d4e207ed8ab"
+                }
+              ],
+              "false": []
+            },
+            "id": "7f26f760-ebb1-435f-adb3-52273b89dcd5"
+          }
+        ],
+        "false": []
+      },
+      "id": "3f597c25-b6e9-4e56-ba07-e4df94460ee8"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 27,
+  "y": 21,
+  "_index": 10
+}

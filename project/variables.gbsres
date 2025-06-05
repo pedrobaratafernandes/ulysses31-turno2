@@ -133,6 +133,41 @@
       "id": "7442b240-750a-4706-8667-39f55fd060da__L0",
       "name": "Local 0",
       "symbol": "var_local_19"
+    },
+    {
+      "id": "1",
+      "name": "jogadorX",
+      "symbol": "var_jogadorx"
+    },
+    {
+      "id": "2",
+      "name": "jogadorY",
+      "symbol": "var_jogadory"
+    },
+    {
+      "id": "6",
+      "name": "estaAseguirInimigo1",
+      "symbol": "var_estaaseguirinimigo1"
+    },
+    {
+      "id": "ed36c588-dac9-4a81-a352-e80e9385e0f0__L0",
+      "name": "Local 0",
+      "symbol": "var_local_20"
+    },
+    {
+      "id": "7",
+      "name": "estaAseguirInimigo2",
+      "symbol": "var_estaaseguirinimigo2"
+    },
+    {
+      "id": "8",
+      "name": "saidaNivel2",
+      "symbol": "var_saidanivel2"
+    },
+    {
+      "id": "9",
+      "name": "inimigo2aIrSaida",
+      "symbol": "var_inimigo2airsaida"
     }
   ]
 }

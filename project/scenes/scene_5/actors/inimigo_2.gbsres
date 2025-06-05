@@ -1,0 +1,47 @@
+{
+  "_resourceType": "actor",
+  "id": "61338266-b537-4cdb-bfd9-148428634ddb",
+  "name": "inimigo 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581312ea-2b1b-426b-bf81-ccd858289b4e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_34",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "player",
+          "property": "ypos"
+        },
+        "moveType": "vertical",
+        "useCollisions": false
+      },
+      "id": "b7e2cfcd-906e-450f-91b8-e356245b42aa"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 1,
+  "_index": 15
+}

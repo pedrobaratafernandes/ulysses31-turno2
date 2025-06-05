@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "26e8518a-d584-497e-96f7-de26193218aa",
-  "name": "coisosoo - Cópia",
+  "name": "porta_aberta",
   "symbol": "sprite_coisosoo_c_pia",
   "numFrames": 1,
-  "filename": "coisosoo - Cópia.png",
+  "filename": "porta_aberta.png",
   "checksum": "914ac7b2d404aebb104c42af58edddb544f7a8f2",
   "width": 16,
   "height": 16,

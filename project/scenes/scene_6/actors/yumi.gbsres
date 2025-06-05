@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "a96b7a0a-3555-495d-983b-2c7ebf2e476f",
-  "name": "",
+  "id": "febbf213-f3a9-47ae-8905-59c41e00db52",
+  "name": "yumi",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "67e9cbc9-c915-43f1-816d-8e622e0f51ea",
@@ -11,22 +11,12 @@
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": true,
+  "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_8",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_GET_POSITION",
-      "args": {
-        "actorId": "$self$",
-        "vectorX": "1",
-        "vectorY": "2"
-      },
-      "id": "814e2531-4dcc-4882-a699-2cac381eaa30"
-    }
-  ],
+  "startScript": [],
   "updateScript": [
     {
       "command": "EVENT_GROUP",
@@ -52,7 +42,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -69,7 +59,7 @@
                       },
                       "valueB": {
                         "type": "number",
-                        "value": 1
+                        "value": 3
                       }
                     },
                     "y": {
@@ -80,12 +70,12 @@
                     "moveType": "diagonal",
                     "useCollisions": false
                   },
-                  "id": "5b4725df-3164-4f4e-b48d-2900963adc83"
+                  "id": "db08347c-28b8-4ef2-89a6-c7e5db8deb01"
                 }
               ],
               "false": []
             },
-            "id": "4f379f9e-3add-4702-a18f-0da06fc9f423"
+            "id": "b509c7ca-d7cb-4130-936b-0339fb680dee"
           },
           {
             "command": "EVENT_IF",
@@ -103,7 +93,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -120,7 +110,7 @@
                       },
                       "valueB": {
                         "type": "number",
-                        "value": -1
+                        "value": -3
                       }
                     },
                     "y": {
@@ -131,12 +121,12 @@
                     "moveType": "diagonal",
                     "useCollisions": false
                   },
-                  "id": "94c398c7-a6b1-42f1-8416-ad373fb48ec1"
+                  "id": "fb72d952-77c8-4efb-ac96-35186c3f18e5"
                 }
               ],
               "false": []
             },
-            "id": "1cd92524-5e8e-4fc0-97f7-91eea0fa9593"
+            "id": "5608d25c-6b09-40b7-90d1-8b9f2de6417a"
           },
           {
             "command": "EVENT_IF",
@@ -154,9 +144,9 @@
                 }
               },
               "__collapseElse": true,
-              "__disableElse": true,
+              "__disableElse": false,
               "__comment": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -178,18 +168,18 @@
                       },
                       "valueB": {
                         "type": "number",
-                        "value": 2
+                        "value": 3
                       }
                     },
                     "moveType": "diagonal",
                     "useCollisions": false
                   },
-                  "id": "c602e17d-c34b-45c4-ac74-cd5ed1b0531d"
+                  "id": "f54908b7-cdc7-492e-9f21-d2e85f3f2ee3"
                 }
               ],
               "false": []
             },
-            "id": "2a153b17-947b-4bc8-ab06-07be6dc878b3"
+            "id": "0973cfe1-9a2d-4399-9d35-a9b5e7206ba9"
           },
           {
             "command": "EVENT_IF",
@@ -207,7 +197,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -229,28 +219,28 @@
                       },
                       "valueB": {
                         "type": "number",
-                        "value": -1
+                        "value": -3
                       }
                     },
                     "moveType": "diagonal",
                     "useCollisions": false
                   },
-                  "id": "33c7d064-5635-47d8-ac3a-c40068c11c50"
+                  "id": "e3358898-94b1-4361-a52b-38766f5a3797"
                 }
               ],
               "false": []
             },
-            "id": "2637c4be-836a-44da-b0b0-7e9524e39934"
+            "id": "26d72af5-5952-40e9-b81e-61b7e5cc8ad9"
           }
         ]
       },
-      "id": "c0ee19d8-b796-4dc4-82fa-12f3e1390495"
+      "id": "ec6158ac-032b-48ce-bda6-36ed0ce7bc44"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 9,
-  "y": 10,
+  "x": 18,
+  "y": 7,
   "_index": 0
 }

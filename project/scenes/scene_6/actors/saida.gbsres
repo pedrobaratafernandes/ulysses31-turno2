@@ -1,0 +1,81 @@
+{
+  "_resourceType": "actor",
+  "id": "19011c0f-a6b4-4753-ad5a-64861ff45380",
+  "name": "saida",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4a4b5058-07b0-4b4b-9410-34763e173f01",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_41",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "38b5e2f0-e3c9-42b6-8510-ba4d25a927b0",
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 55
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "9a6757dd-9e16-42f8-b131-1200425eddce"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "38b5e2f0-e3c9-42b6-8510-ba4d25a927b0"
+            },
+            "id": "414a0fcd-bb6a-4eca-83d5-785044f01d7a"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "38b5e2f0-e3c9-42b6-8510-ba4d25a927b0"
+            },
+            "id": "a5e458b3-e336-421e-b4e9-cc798df97b03"
+          }
+        ],
+        "false": []
+      },
+      "id": "cdd2357b-922f-4639-bfbe-db9d7944059d"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 22,
+  "y": 57,
+  "_index": 13
+}

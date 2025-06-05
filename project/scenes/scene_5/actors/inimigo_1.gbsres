@@ -1,0 +1,110 @@
+{
+  "_resourceType": "actor",
+  "id": "36a2d494-8b4e-40cb-a8a2-36bc37ab942e",
+  "name": "inimigo 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "13888629-4ddf-4aa3-8b69-2ff0ebb3277b",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_17",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "369ccebf-cf24-485c-a21e-3ab48a92241f"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Script que faz o inimigo mover para o jogador caso o mesmo esteja na área do inimigo, e caso leve um tiro, não reage.",
+        "__collapse": true
+      },
+      "id": "4d4a04f7-bb97-45ae-9f5c-ec431c743601"
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "player",
+        "vectorX": "T0",
+        "vectorY": "T1"
+      },
+      "id": "304ec15d-f38b-490d-99f7-36c67e5dc077"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "T0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "T1"
+        },
+        "moveType": "vertical",
+        "useCollisions": false
+      },
+      "id": "8d05c165-ed34-4c57-a28f-858f29a49689"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 30
+      },
+      "id": "6b07e323-da0d-49cc-8279-3c8d3559cce7"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "559b5f97-3e78-490b-aa08-524e568afa33"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "eb4f151b-f5f1-4967-8d03-8703cb29f84a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "cd85bb6f-3579-4aa6-a049-92bcdd522b8e"
+    }
+  ],
+  "x": 4,
+  "y": 1,
+  "_index": 11
+}
