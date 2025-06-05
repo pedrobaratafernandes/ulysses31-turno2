@@ -14,7 +14,7 @@
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "808c387b-4b16-4395-866c-825efaf81c61",
-        "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+        "spriteSheetId": "26e8518a-d584-497e-96f7-de26193218aa",
         "__collapse": false
       },
       "id": "5b28b84e-684f-4c13-a3e6-c47bac5a9a52"
@@ -23,7 +23,7 @@
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "bcb153c3-850b-470c-8557-38211e00c303",
-        "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+        "spriteSheetId": "26e8518a-d584-497e-96f7-de26193218aa",
         "__collapse": false
       },
       "id": "1e811b9f-82c2-43c6-8ad3-f784559a8678"

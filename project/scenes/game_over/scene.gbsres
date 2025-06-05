@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "3c1733ca-8da2-4ede-9506-a10f347cf780",
-  "_index": 9,
+  "_index": 7,
   "name": "Game Over",
   "backgroundId": "6144bf5c-9a93-42e7-bdae-cc0a0ecefb56",
   "tilesetId": "",
