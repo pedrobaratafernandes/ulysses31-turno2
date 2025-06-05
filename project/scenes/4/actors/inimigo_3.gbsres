@@ -1,0 +1,89 @@
+{
+  "_resourceType": "actor",
+  "id": "ca5f8ca3-01d7-4dcb-bdaf-a432367c7191",
+  "name": "inimigo 3",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581312ea-2b1b-426b-bf81-ccd858289b4e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_46",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "12"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "property",
+                "target": "player",
+                "property": "ypos"
+              },
+              "moveType": "diagonal",
+              "useCollisions": true
+            },
+            "id": "d88d0db0-e30e-41b3-97b3-272e612e08ec"
+          }
+        ],
+        "false": []
+      },
+      "id": "bb19e486-9759-44db-b615-7c4216ebd706"
+    }
+  ],
+  "hit1Script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "cbc644e7-fd79-4acb-9da1-8d39fe1e1404"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "13",
+        "__collapse": true
+      },
+      "id": "0c88c93e-0b6a-4469-8855-a5dd46780a37"
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 5,
+  "_index": 5
+}

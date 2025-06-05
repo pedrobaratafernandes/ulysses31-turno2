@@ -50,7 +50,7 @@
                   "command": "EVENT_LAUNCH_PROJECTILE",
                   "args": {
                     "__section": "projectile",
-                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "spriteSheetId": "a42318bc-a120-4729-aa7b-1ecbdd007a06",
                     "spriteStateId": "",
                     "actorId": "$self$",
                     "x": 0,
@@ -67,7 +67,7 @@
                     "lifeTime": 2,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
@@ -80,7 +80,7 @@
                   "command": "EVENT_LAUNCH_PROJECTILE",
                   "args": {
                     "__section": "projectile",
-                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "spriteSheetId": "7f09c2ce-f950-47d0-9c12-a01b3dde8bf9",
                     "spriteStateId": "",
                     "actorId": "$self$",
                     "x": 0,
@@ -97,7 +97,7 @@
                     "lifeTime": 0.1,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]

@@ -168,6 +168,26 @@
       "id": "ed36c588-dac9-4a81-a352-e80e9385e0f0__L0",
       "name": "Local 0",
       "symbol": "var_local_20"
+    },
+    {
+      "id": "10",
+      "name": "inimigo1Combate",
+      "symbol": "var_inimigo1combate"
+    },
+    {
+      "id": "11",
+      "name": "inimigo2Combate",
+      "symbol": "var_inimigo2combate"
+    },
+    {
+      "id": "12",
+      "name": "inimigo3Combate",
+      "symbol": "var_inimigo3combate"
+    },
+    {
+      "id": "13",
+      "name": "mortes",
+      "symbol": "var_mortes"
     }
   ]
 }

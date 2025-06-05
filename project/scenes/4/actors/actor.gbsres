@@ -25,7 +25,8 @@
           "type": "variable",
           "value": "0"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -55,9 +56,51 @@
       "command": "EVENT_WAIT",
       "args": {
         "time": 0.1,
-        "frames": 30
+        "frames": 30,
+        "__collapse": true
       },
       "id": "78b489fb-eeed-41ce-9529-a4762e219be7"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "13"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e27dfcc9-e0f0-4a67-8475-d0d940514cf0",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "320988b4-934f-4e8f-9889-ee93f8f93760"
+          }
+        ],
+        "false": []
+      },
+      "id": "13da1afe-ab07-4e0f-be5b-a29f2f67ea9e"
     }
   ],
   "hit1Script": [],

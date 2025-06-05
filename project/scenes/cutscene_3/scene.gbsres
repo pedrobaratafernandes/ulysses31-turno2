@@ -3,7 +3,7 @@
   "id": "e27dfcc9-e0f0-4a67-8475-d0d940514cf0",
   "_index": 10,
   "name": "CutScene 3",
-  "backgroundId": "94f04777-0cd8-4518-9e56-7f7a60b6cb82",
+  "backgroundId": "cb5420ac-7235-49a7-b0f1-96b371cee657",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -40,7 +40,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__comment": false
       },
       "id": "e9fba756-c65b-4142-9aba-227664d08303"
     },
@@ -64,5 +65,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "bbff1704-d6a5-42a1-805f-c07a11fa40e3"
 }

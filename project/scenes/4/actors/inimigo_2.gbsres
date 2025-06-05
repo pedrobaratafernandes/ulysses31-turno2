@@ -1,0 +1,87 @@
+{
+  "_resourceType": "actor",
+  "id": "9744b88a-9ec9-45ea-8f37-bf6083d40dd7",
+  "name": "inimigo 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3a097ec1-581b-4e69-a5f8-e3bf91f690d3",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_45",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "11"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "property",
+                "target": "player",
+                "property": "ypos"
+              },
+              "moveType": "diagonal",
+              "useCollisions": true
+            },
+            "id": "5824fa08-0f89-4016-89b0-42ee6bb26883"
+          }
+        ],
+        "false": []
+      },
+      "id": "cb67a19a-e761-470f-9e0c-5206e275257f"
+    }
+  ],
+  "hit1Script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "11",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "b76fa069-b51b-41f8-ad6e-290b97e40ab8"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "13"
+      },
+      "id": "bf9278fe-ed26-490d-888b-e77d9bf9d4dd"
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 8,
+  "y": 17,
+  "_index": 4
+}

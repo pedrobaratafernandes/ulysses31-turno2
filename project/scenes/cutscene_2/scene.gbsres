@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
   "x": 608,
-  "y": 896,
+  "y": 904,
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -47,14 +47,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "b6585d42-fab7-4d21-873e-da1e0e03fa27",
+        "sceneId": "4985917f-fb5c-446a-ba0e-e7b13d4e40b0",
         "x": {
           "type": "number",
-          "value": 24
+          "value": 27
         },
         "y": {
           "type": "number",
-          "value": 24
+          "value": 25
         },
         "direction": "",
         "fadeSpeed": "2"
@@ -64,5 +64,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "bbff1704-d6a5-42a1-805f-c07a11fa40e3"
 }
