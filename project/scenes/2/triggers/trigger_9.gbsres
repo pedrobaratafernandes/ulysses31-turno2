@@ -3,12 +3,12 @@
   "id": "8189dda2-78e2-48f5-937c-55149e4c9f0e",
   "name": "",
   "prefabId": "",
-  "x": 11,
-  "y": 49,
+  "x": 15,
+  "y": 52,
   "symbol": "trigger_21",
   "prefabScriptOverrides": {},
-  "width": 3,
-  "height": 5,
+  "width": 1,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_ACTOR_SET_SPRITE",

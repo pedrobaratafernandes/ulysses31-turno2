@@ -20,8 +20,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Ulysses destroys \nthe manipulative \nforce and his",
-          "companions return \nto their stasis \nunharmed. "
+          "Ulysses destroys\nthe manipulative\nforce and his",
+          "companions return\nto their",
+          "stasis unharmed. "
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,32 +41,24 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-<<<<<<< HEAD
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "1fc22f7e-a606-4eee-b375-73278d863af4",
-              "x": {
-                "type": "number",
-                "value": 9
-              },
-              "y": {
-                "type": "number",
-                "value": 11
-              },
-              "direction": "down",
-              "fadeSpeed": "2"
-            },
-            "id": "303d6e09-4b3b-418c-9a59-cf20fc0a6a67"
-          }
-        ]
+      "id": "557b7a68-4b8d-4e21-995a-ee5c7726234b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1fc22f7e-a606-4eee-b375-73278d863af4",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
       },
-      "id": "99f3595e-82fe-404b-bdd5-c56ea7e21255"
-=======
-      "id": "09dd8808-cbc9-4681-962c-48b60357e4ad"
->>>>>>> 942a6f6859a7173446a8c0eae85ceccfc7f5d33a
+      "id": "303d6e09-4b3b-418c-9a59-cf20fc0a6a67"
     }
   ],
   "playerHit1Script": [],

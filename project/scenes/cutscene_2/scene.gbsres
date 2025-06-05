@@ -7,22 +7,23 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
-  "x": 440,
-  "y": 144,
+  "x": 608,
+  "y": 896,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "The crew takes over\nthe Odyssey! ",
-          "Ulysses must act\nquickly to save it,\nwithout hurting",
-          "his controlled\ncompanions. "
+          "The crew takes\nover the Odyssey!",
+          "Ulysses must act\nquickly to save it",
+          "without hurting\nhis",
+          "controlled\ncompanions."
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,19 +42,19 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "042b0da9-f3cd-4b32-9c9f-567c09864636"
+      "id": "e585584c-e0ee-4a45-ac66-ea9bba17c7bb"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "1fc22f7e-a606-4eee-b375-73278d863af4",
+        "sceneId": "b6585d42-fab7-4d21-873e-da1e0e03fa27",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 24
         },
         "y": {
           "type": "number",
-          "value": 10
+          "value": 24
         },
         "direction": "",
         "fadeSpeed": "2"
