@@ -17,37 +17,30 @@
   "y": 496,
   "script": [
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_TEXT",
       "args": {
-        "input": [
-          "a",
-          "start"
+        "text": [
+          "Ulysses destroys \nthe manipulative \nforce and his",
+          "companions return \nto their stasis \nunharmed. "
         ],
-        "override": true,
-        "__scriptTabs": "press"
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "1fc22f7e-a606-4eee-b375-73278d863af4",
-              "x": {
-                "type": "number",
-                "value": 7
-              },
-              "y": {
-                "type": "number",
-                "value": 8
-              },
-              "direction": "down",
-              "fadeSpeed": "2"
-            },
-            "id": "303d6e09-4b3b-418c-9a59-cf20fc0a6a67"
-          }
-        ]
-      },
-      "id": "99f3595e-82fe-404b-bdd5-c56ea7e21255"
+      "id": "09dd8808-cbc9-4681-962c-48b60357e4ad"
     }
   ],
   "playerHit1Script": [],
