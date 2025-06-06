@@ -3,11 +3,11 @@
   "id": "2519ae3c-607a-46e5-a50f-e897589e4744",
   "_index": 5,
   "name": "Cutscene 3",
-  "backgroundId": "49d0c7d8-19cd-421f-acf5-99677dcd8b3c",
+  "backgroundId": "4df328a2-7b17-4e6d-93b5-57344f1635f4",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
@@ -17,20 +17,12 @@
   "y": 496,
   "script": [
     {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 1,
-        "frames": 30
-      },
-      "id": "215e75b6-5749-4c22-9348-22bc2fad5bdc"
-    },
-    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Ulysses destroys\nthe manipulative\nforce and his",
-          "companions return\nto their",
-          "stasis unharmed. "
+          "Ulysses destroys\nthe manipulative",
+          "force and his \ncompanions return",
+          "to their stasis\nunharmed."
         ],
         "__section": "text",
         "avatarId": "",
@@ -48,16 +40,9 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__comment": true
+        "__comment": false
       },
       "id": "557b7a68-4b8d-4e21-995a-ee5c7726234b"
-    },
-    {
-      "command": "EVENT_GBVM_SCRIPT",
-      "args": {
-        "script": "VM_IDLE\nVM_LOAD_TEXT 0\n\n; Define the text string in ASCII format\n.asciz \"Ulysses destroys \\nthe manipulative \\nforce and his\"\n \n\n\n; Move the overlay to the center of the screen (adjust coordinates as needed)\nVM_OVERLAY_MOVE_TO 0, 10, .OVERLAY_SPEED_INSTANT\nVM_OVERLAY_CLEAR 0, 0, 25, 5, .UI_COLOR_WHITE, .UI_AUTO_SCROLL \n; Render the text in Logo Mode\nVM_DISPLAY_TEXT_EX .DISPLAY_DEFAULT , 0\nVM_OVERLAY_WAIT .UI_MODAL, ^/(.UI_WAIT_WINDOW | .UI_WAIT_BTN_A )/\nVM_IDLE\nVM_LOAD_TEXT 0\n\n; Define the text string in ASCII format\n.asciz \"companions return\\n to their stasis\\n unharmed.\"\n \n\n\n; Move the overlay to the center of the screen (adjust coordinates as needed)\nVM_OVERLAY_MOVE_TO 0, 10, .OVERLAY_SPEED_INSTANT\n\n; Render the text in Logo Mode\nVM_DISPLAY_TEXT_EX .DISPLAY_DEFAULT , 0\nVM_OVERLAY_CLEAR 0, 0, 20, 5, .UI_COLOR_WHITE, .UI_AUTO_SCROLL \nVM_OVERLAY_WAIT .UI_MODAL, ^/(.UI_WAIT_WINDOW | .UI_WAIT_BTN_A )/\n"
-      },
-      "id": "3d1e13a7-5058-4742-8b1d-39894ffeccc2"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -80,5 +65,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "bbff1704-d6a5-42a1-805f-c07a11fa40e3"
 }

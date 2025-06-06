@@ -32,7 +32,8 @@
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false,
-        "__label": "yumi seguir o jogador"
+        "__label": "yumi seguir o jogador",
+        "__comment": true
       },
       "children": {
         "true": [

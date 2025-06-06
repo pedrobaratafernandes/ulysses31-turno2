@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "You_WinV2.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -10,7 +10,7 @@
   "sgbEnabled": false,
   "customHead": "",
   "defaultBackgroundPaletteIds": [
-    "default-bg-1",
+    "dmg",
     "default-bg-2",
     "default-bg-3",
     "default-bg-4",
@@ -20,7 +20,7 @@
     "default-ui"
   ],
   "defaultSpritePaletteIds": [
-    "default-sprite",
+    "dmg",
     "default-sprite",
     "default-sprite",
     "default-sprite",
@@ -81,7 +81,7 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mono",
+  "colorMode": "color",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},

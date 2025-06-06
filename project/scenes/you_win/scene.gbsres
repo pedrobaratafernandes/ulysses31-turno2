@@ -3,7 +3,7 @@
   "id": "c3e9bb6d-27fa-4260-b1f7-4cfe08e74084",
   "_index": 4,
   "name": "You Win",
-  "backgroundId": "f55db349-cedb-40d2-88a7-efe92294b9b3",
+  "backgroundId": "7d8b00b2-1cde-4fb1-aa50-e626d6348457",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -33,31 +33,6 @@
         "effect": 0
       },
       "id": "6e668c51-c296-498c-849d-a910af1fb9e5"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "YOU WIN!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "12f8027d-f525-404c-8989-83704d935b13"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
