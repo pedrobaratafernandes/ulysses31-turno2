@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "2b29deac-5426-4ff5-a83d-25c7c3593ca1",
+  "name": "Menu/Cancel.vgm",
+  "symbol": "sound_menu_cancel_vgm",
+  "filename": "Menu/Cancel.vgm",
+  "type": "vgm"
+}
