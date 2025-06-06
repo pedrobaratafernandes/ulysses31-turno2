@@ -22,6 +22,11 @@
       "symbol": "var_path"
     },
     {
+      "id": "6",
+      "name": "Enemies",
+      "symbol": "var_enemies"
+    },
+    {
       "id": "a39e2403-a0b8-4025-9092-0dce122ec7e0__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
@@ -143,11 +148,6 @@
       "id": "88fa0546-6721-4db0-9bf8-c71892878d30__L0",
       "name": "Local 0",
       "symbol": "var_local_20"
-    },
-    {
-      "id": "6",
-      "name": "Enemies",
-      "symbol": "var_enemies"
     },
     {
       "id": "6afa7e01-dab7-43dd-879d-75e0a43ff205__L0",
