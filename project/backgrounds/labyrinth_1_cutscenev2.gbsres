@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "cb5420ac-7235-49a7-b0f1-96b371cee657",
+  "id": "78a404e9-b9a8-48bd-9d94-61c295d0410d",
   "name": "labyrinth_1_cutsceneV2",
   "symbol": "bg_labyrinth_1_cutscenev2",
   "width": 20,
@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "labyrinth_1_cutsceneV2.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

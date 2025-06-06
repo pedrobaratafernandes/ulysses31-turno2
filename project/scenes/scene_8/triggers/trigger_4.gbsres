@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "0bd24f8c-7f80-4e3e-b0a5-508acf711161",
+  "name": "",
+  "prefabId": "",
+  "x": 42,
+  "y": 36,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 8,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "4",
+        "flag": 0,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "4",
+              "flag": 1,
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_FLAGS_COMPARE",
+                  "args": {
+                    "variable": "4",
+                    "flag": 2,
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "b6585d42-fab7-4d21-873e-da1e0e03fa27",
+                          "x": {
+                            "type": "number",
+                            "value": 24
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 25
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "c3b010ff-a569-4a83-9b9f-c05530e787a9"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "fb737a81-63d4-49e9-9378-96f9e6072d69"
+                }
+              ],
+              "false": []
+            },
+            "id": "16f3916f-b496-43a8-8b9c-f90942c8123d"
+          }
+        ],
+        "false": []
+      },
+      "id": "2ed1c9e8-2162-4cad-ad84-76022494c117"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

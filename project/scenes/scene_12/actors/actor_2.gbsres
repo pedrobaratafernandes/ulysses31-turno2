@@ -1,27 +1,96 @@
 {
   "_resourceType": "actor",
-  "id": "639be50c-e1ee-4f6a-886e-a496515637d1",
+  "id": "88fa0546-6721-4db0-9bf8-c71892878d30",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "5f4b11be-efc9-4617-938c-63fd68db9ada",
+  "spriteSheetId": "5a23bb28-f07c-4b0e-84b4-e9394eb939ff",
   "prefabId": "",
-  "direction": "left",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
-  "collisionGroup": "",
+  "persistent": true,
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_40",
+  "symbol": "actor_0",
   "script": [],
-  "startScript": [],
-  "updateScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "771ba762-30b4-4e92-bbf5-1b204afafc20"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Script que faz o inimigo mover para o jogador caso o mesmo esteja na área do inimigo, e caso leve um tiro, não reage.",
+        "__collapse": true
+      },
+      "id": "c46714f0-b964-4dd7-bf34-33119dc8149d"
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "player",
+        "vectorX": "T0",
+        "vectorY": "T1"
+      },
+      "id": "11dc8866-d815-4410-a5ba-5d00728ce4d4"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "T0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "T1"
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "b578d0ae-4297-473f-ade6-91398600bfff"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 30
+      },
+      "id": "17b96292-4328-41ff-90ad-730b844f3e6e"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 28,
-  "y": 28,
+  "hit3Script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "6"
+      },
+      "id": "54540634-d3f8-42df-bf05-cedada525775"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "0e5199db-cbd4-4a7c-a001-aaa862f9b71a"
+    }
+  ],
+  "x": 3,
+  "y": 8,
   "_index": 1
 }

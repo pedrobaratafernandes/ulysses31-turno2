@@ -1,0 +1,96 @@
+{
+  "_resourceType": "actor",
+  "id": "fb4462d6-036b-4589-a7f0-4b83e1c9a2fe",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5a23bb28-f07c-4b0e-84b4-e9394eb939ff",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_35",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "55dbad86-ea36-458f-ae6a-511f0734ba53"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Script que faz o inimigo mover para o jogador caso o mesmo esteja na área do inimigo, e caso leve um tiro, não reage.",
+        "__collapse": true
+      },
+      "id": "599eb020-91e7-4194-9223-092a3c7ecad6"
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "player",
+        "vectorX": "T0",
+        "vectorY": "T1"
+      },
+      "id": "4277ed5f-2bad-4b60-ac7c-5faa0e1d9a64"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "T0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "T1"
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "c9c0c042-8d39-4979-8d37-246c2b2f31b1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 30
+      },
+      "id": "490e62fa-a05a-448f-8b67-acfe8fa7934f"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "6"
+      },
+      "id": "3e691e6f-53b9-467a-89fa-6a7df5db885f"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3462579c-b7ac-4e8f-8c81-5184c7807829"
+    }
+  ],
+  "x": 3,
+  "y": 23,
+  "_index": 5
+}

@@ -1,8 +1,8 @@
 {
   "_resourceType": "sprite",
-  "id": "4a4b5058-07b0-4b4b-9410-34763e173f01",
+  "id": "987f9929-77c0-49ca-bc56-e6778f92a5ac",
   "name": "porta_fechada",
-  "symbol": "sprite_coisosoo",
+  "symbol": "sprite_porta_fechada",
   "numFrames": 1,
   "filename": "porta_fechada.png",
   "checksum": "973d860e9ca644eedd1aa4147506f77348564d84",
@@ -10,19 +10,19 @@
   "height": 16,
   "states": [
     {
-      "id": "0ff637cf-bc4f-4e46-8ba0-f6c8472e6903",
+      "id": "8bb85978-de1e-4e12-84ba-46e84fef82ec",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "15260c44-e87e-4fdd-b83f-16884fab3aea",
+          "id": "cddfece4-47ad-47db-82c5-323d917988fc",
           "frames": [
             {
-              "id": "89f15167-9c53-474c-8d77-08cdd90b542b",
+              "id": "0dc0d339-fff6-453c-9b0c-756effa9d394",
               "tiles": [
                 {
-                  "id": "ec905bc7-fe80-43bc-836a-43647bb6c649",
+                  "id": "63b75539-f9c1-45fe-b944-86f373f1bfba",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -35,7 +35,7 @@
                   "priority": false
                 },
                 {
-                  "id": "56b5e864-4b5d-4eba-83cd-5f046ac93c42",
+                  "id": "f917f89c-d65d-48f7-a117-dabf171dd4d9",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -52,64 +52,64 @@
           ]
         },
         {
-          "id": "5daf5e3e-8391-4cea-9c3d-0ec9750b44e1",
+          "id": "234fdabe-e3cf-48be-993a-e69a1b4e6c98",
           "frames": [
             {
-              "id": "0bce0b57-8661-4fe1-b044-2078e7cad3f5",
+              "id": "09c45036-5d47-4079-9f60-eb36a1a70e4b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0e31f630-bcf3-4a66-abda-f35fb21c2f2a",
+          "id": "9ab34adb-a8cc-4fcc-b289-e66c6bc995ba",
           "frames": [
             {
-              "id": "1d782461-4fc6-43f6-a375-a212ac943c2c",
+              "id": "0fa6a98e-e5f9-4efd-9de3-70c4b4ae97c8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "100b53eb-a01e-451a-b6c0-8a6f19d52924",
+          "id": "e33a9131-eb0a-4199-9e3b-b1ac8f49e22c",
           "frames": [
             {
-              "id": "4921400c-d39a-46ad-9770-4d19ee7b84a8",
+              "id": "b6e3d6c9-2a8d-4ae9-ac70-ba8a99e690b4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1f48e419-7055-46bd-a20c-2b044365f31c",
+          "id": "5b17a82b-f515-4bb2-8137-773fb85818b1",
           "frames": [
             {
-              "id": "cd694959-a75d-4b72-9f3e-a2c9611d83b9",
+              "id": "8d550eca-510e-4d5d-85b0-e398e24dac7d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "24b552ea-34d8-4f04-b030-313b3fff90ae",
+          "id": "a0740679-dd3b-4eac-b1d8-4a049370ec6b",
           "frames": [
             {
-              "id": "e0fc1a35-5fa3-4591-ac88-5acf37a338f7",
+              "id": "bbcfb459-337e-4cd9-9c1f-f1634f5ccc6b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "fa32cd38-0a99-4d84-928e-1f7d55b8e3fc",
+          "id": "d314d899-dddc-4659-83bb-f3434f5d7f16",
           "frames": [
             {
-              "id": "2137bdb1-dd58-4f37-893d-6bba9bec59cc",
+              "id": "3a8d2408-3e5b-4e29-8354-9dea6366bfb4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d750ab57-6a75-4335-8726-c8921dad8043",
+          "id": "af4fa1fd-68df-4d60-9f1b-39c2a38759ac",
           "frames": [
             {
-              "id": "e25f2989-4748-4c08-85ba-590e0a2cfee2",
+              "id": "239f003e-2af5-4521-b054-ce1ccfa95d58",
               "tiles": []
             }
           ]
@@ -117,7 +117,7 @@
       ]
     }
   ],
-  "numTiles": 2,
+  "numTiles": 1,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,

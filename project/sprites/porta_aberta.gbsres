@@ -1,8 +1,8 @@
 {
   "_resourceType": "sprite",
-  "id": "26e8518a-d584-497e-96f7-de26193218aa",
+  "id": "9a5c470b-ae5b-40c5-b527-35497dd741a0",
   "name": "porta_aberta",
-  "symbol": "sprite_coisosoo_c_pia",
+  "symbol": "sprite_porta_aberta",
   "numFrames": 1,
   "filename": "porta_aberta.png",
   "checksum": "914ac7b2d404aebb104c42af58edddb544f7a8f2",
@@ -10,19 +10,19 @@
   "height": 16,
   "states": [
     {
-      "id": "5468976c-7834-440f-8811-7fe2df70c954",
+      "id": "a5c13c39-a155-4167-a28c-931653d79159",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "ae076802-d4c3-413a-9bff-cd7b389e347f",
+          "id": "634db5b5-d614-496c-9ad1-5fff9e35a427",
           "frames": [
             {
-              "id": "e74d4fb2-2e5e-4054-b8d9-554553c2270b",
+              "id": "96295645-7ac3-4507-ae52-cc012a9baa44",
               "tiles": [
                 {
-                  "id": "5c1cb62a-d40b-483b-b33c-e848d66d3e81",
+                  "id": "53bafc48-f0c5-4e07-8454-6c69ac186c9c",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -35,7 +35,7 @@
                   "priority": false
                 },
                 {
-                  "id": "be2dcea1-4e57-40ba-b889-5f2c1fc12560",
+                  "id": "58c6f2da-cd3e-4bf6-b3c4-088c1d64e6e9",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -52,64 +52,64 @@
           ]
         },
         {
-          "id": "b2564a7f-676a-4040-a994-dfd17176d565",
+          "id": "916a51f7-8916-4dc0-bb5e-1fd3cc4ad667",
           "frames": [
             {
-              "id": "36b3c301-b93e-4539-a177-d7936940d1da",
+              "id": "955c95b1-8a73-4551-ba89-57605ede06ea",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cae39870-98e1-4ccd-9fa9-7466f20c6905",
+          "id": "e895afeb-e5b6-4237-8e72-c74e75a2a6b2",
           "frames": [
             {
-              "id": "7088c0e3-9111-4677-93fe-a7b68f002f74",
+              "id": "5a724424-765b-4314-b599-e10e29d1c97e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ef142dd4-3cc2-4155-8d1e-9c87b4571301",
+          "id": "d8cfbfb3-b028-4d75-b4d3-c3a5b3e7ccc7",
           "frames": [
             {
-              "id": "d1767ee4-39d8-46c8-a825-cfb51ce9eb94",
+              "id": "bd00e20a-74ba-4995-8173-5a2aec48f028",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d4db924f-716e-4372-88b5-ee749a8e3e80",
+          "id": "3dd017dd-e6ff-43c3-8b3e-b202618a500e",
           "frames": [
             {
-              "id": "cea0c9df-d3e5-4b2c-8f0d-e16a6b5a7b0b",
+              "id": "2c7f7b03-66da-4243-88f0-dec90402bea6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "21e1ad37-156e-4204-b308-995166b15b9e",
+          "id": "50e2a0fe-1892-4084-99ea-db487e54aafa",
           "frames": [
             {
-              "id": "d33d1508-a305-4b2d-aa09-523c6d4d97a3",
+              "id": "3a731528-8649-4ee6-a298-abbe8fe93952",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f44cf244-2699-49f4-8e7a-d8dc1345cd2d",
+          "id": "31fa7fac-0c4b-439e-89a2-1b1e3544ad42",
           "frames": [
             {
-              "id": "542e29cc-af21-4808-8cab-20955f3d9e90",
+              "id": "ad36ae60-1ad3-4cad-ab79-3a38da54f5d0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0dcc47ed-b5ee-40e3-95a8-1f78783b43ed",
+          "id": "f87aaa15-0f72-444e-af8a-35c90dfdec9c",
           "frames": [
             {
-              "id": "e280e0ef-d104-4aaa-9080-9cb15d5b8bbf",
+              "id": "fd847da1-16ea-4688-a741-dea5aa069c7c",
               "tiles": []
             }
           ]
@@ -117,7 +117,7 @@
       ]
     }
   ],
-  "numTiles": 2,
+  "numTiles": 1,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
