@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f55db349-cedb-40d2-88a7-efe92294b9b3",
+  "name": "You_WinV2",
+  "symbol": "bg_you_winv2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "You_WinV2.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -7,6 +7,16 @@
       "symbol": "var_arma"
     },
     {
+      "id": "1",
+      "name": "jogadorX",
+      "symbol": "var_jogadorx"
+    },
+    {
+      "id": "2",
+      "name": "jogadorY",
+      "symbol": "var_jogadory"
+    },
+    {
       "id": "3",
       "name": "Escondido",
       "symbol": "var_escondido_0"
@@ -23,8 +33,68 @@
     },
     {
       "id": "6",
-      "name": "Enemies",
-      "symbol": "var_enemies"
+      "name": "estaAseguirInimigo1",
+      "symbol": "var_estaaseguirinimigo1"
+    },
+    {
+      "id": "7",
+      "name": "estaAseguirInimigo2",
+      "symbol": "var_estaaseguirinimigo2"
+    },
+    {
+      "id": "8",
+      "name": "saidaNivel2",
+      "symbol": "var_saidanivel2"
+    },
+    {
+      "id": "9",
+      "name": "inimigo2aIrSaida",
+      "symbol": "var_inimigo2airsaida"
+    },
+    {
+      "id": "10",
+      "name": "inimigo1Combate",
+      "symbol": "var_inimigo1combate"
+    },
+    {
+      "id": "11",
+      "name": "inimigo2Combate",
+      "symbol": "var_inimigo2combate"
+    },
+    {
+      "id": "12",
+      "name": "inimigo3Combate",
+      "symbol": "var_inimigo3combate"
+    },
+    {
+      "id": "13",
+      "name": "mortes",
+      "symbol": "var_mortes"
+    },
+    {
+      "id": "14",
+      "name": "inimigo4Combate",
+      "symbol": "var_inimigo4combate"
+    },
+    {
+      "id": "15",
+      "name": "inimigo1Morto",
+      "symbol": "var_inimigo1morto"
+    },
+    {
+      "id": "16",
+      "name": "inimigo2Morto",
+      "symbol": "var_inimigo2morto"
+    },
+    {
+      "id": "17",
+      "name": "inimigo3Morto",
+      "symbol": "var_inimigo3morto"
+    },
+    {
+      "id": "18",
+      "name": "inimigo4Morto",
+      "symbol": "var_inimigo4morto"
     },
     {
       "id": "a39e2403-a0b8-4025-9092-0dce122ec7e0__L0",
@@ -140,39 +210,9 @@
       "symbol": "var_local_19"
     },
     {
-      "id": "b6585d42-fab7-4d21-873e-da1e0e03fa27__L0",
-      "name": "Life",
-      "symbol": "var_life"
-    },
-    {
-      "id": "88fa0546-6721-4db0-9bf8-c71892878d30__L0",
+      "id": "ed36c588-dac9-4a81-a352-e80e9385e0f0__L0",
       "name": "Local 0",
       "symbol": "var_local_20"
-    },
-    {
-      "id": "6afa7e01-dab7-43dd-879d-75e0a43ff205__L0",
-      "name": "Local 0",
-      "symbol": "var_local_21"
-    },
-    {
-      "id": "0d1aaf49-5a3b-4095-9eda-bc0cdb02d452__L0",
-      "name": "Local 0",
-      "symbol": "var_local_22"
-    },
-    {
-      "id": "2f489f4d-0bdd-4cee-b220-41a88b294645__L0",
-      "name": "Local 0",
-      "symbol": "var_local_23"
-    },
-    {
-      "id": "fb4462d6-036b-4589-a7f0-4b83e1c9a2fe__L0",
-      "name": "Local 0",
-      "symbol": "var_local_24"
-    },
-    {
-      "id": "5012236e-f25e-4d1b-ac38-442ebdda431f__L0",
-      "name": "Local 0",
-      "symbol": "var_local_25"
     }
   ]
 }

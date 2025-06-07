@@ -1,0 +1,70 @@
+{
+  "_resourceType": "scene",
+  "id": "2519ae3c-607a-46e5-a50f-e897589e4744",
+  "_index": 5,
+  "name": "Cutscene 3",
+  "backgroundId": "4df328a2-7b17-4e6d-93b5-57344f1635f4",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 432,
+  "y": 496,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ulysses destroys\nthe manipulative",
+          "force and his \ncompanions return",
+          "to their stasis\nunharmed."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": false
+      },
+      "id": "557b7a68-4b8d-4e21-995a-ee5c7726234b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c3e9bb6d-27fa-4260-b1f7-4cfe08e74084",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "down",
+        "fadeSpeed": "2",
+        "__comment": false
+      },
+      "id": "303d6e09-4b3b-418c-9a59-cf20fc0a6a67"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "bbff1704-d6a5-42a1-805f-c07a11fa40e3"
+}

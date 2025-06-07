@@ -1,0 +1,249 @@
+{
+  "_resourceType": "actor",
+  "id": "d818132a-e6fa-4af0-b6bd-bd5056df9d42",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581312ea-2b1b-426b-bf81-ccd858289b4e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_18",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "b42a027c-2a18-4f2a-82ed-c90e3f947f7b"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Script que faz o inimigo mover para o jogador caso o mesmo esteja na área do inimigo, e caso leve um tiro, não reage."
+      },
+      "id": "8fd963fb-c91c-42b1-a0cc-7f7369134c4d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "5"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "145285c7-b97e-4839-a720-4a75f00414fb"
+          },
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "player",
+              "vectorX": "L4",
+              "vectorY": "L5"
+            },
+            "id": "aadcb6e1-7b5f-425d-9803-f363f8c34070"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "L4"
+              },
+              "y": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "moveType": "horizontal",
+              "useCollisions": true
+            },
+            "id": "a7397fb3-aa73-42dd-b261-b8fa30ccf144"
+          }
+        ],
+        "false": []
+      },
+      "id": "ab4f17af-107f-4d51-bc4b-98cd2b37881a"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Path"
+      },
+      "id": "61905777-98a1-4014-a742-2357641bfe18"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "5"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "62f1618b-17cb-4673-bbf1-0e059f74cb65"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 39
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "056de386-3d7c-45f3-b651-c85de1ad270b"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "cc8ef031-acd5-4a7f-af08-65f12ddfe98a"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 39
+              },
+              "y": {
+                "type": "number",
+                "value": 42
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "f4d31229-d0f8-44f9-89ff-679545892bd5"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "2fd81516-3af7-455e-984b-9c27d0fd735f"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 42
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "04f0bb31-b1ba-406c-83be-cf09fe522a36"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "0aaea00c-cdb1-44fe-9ab2-64bb27313785"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "59058c1b-c834-499e-8c2b-d0f4a6a88a34"
+          }
+        ],
+        "false": []
+      },
+      "id": "4a9171ce-5abf-47b6-9198-fd65eff8c20f"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "cd927beb-fdf4-4963-929f-dc67f08ab2be"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "73b22ae3-1b46-4f6f-b5bc-7c13d8e5a243"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "8da4a8ea-c896-4679-a362-28acad58461a"
+    }
+  ],
+  "x": 2,
+  "y": 6,
+  "_index": 8
+}

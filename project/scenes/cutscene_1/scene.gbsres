@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "2519ae3c-607a-46e5-a50f-e897589e4744",
-  "_index": 5,
-  "name": "Cutscene 1",
-  "backgroundId": "4df328a2-7b17-4e6d-93b5-57344f1635f4",
+  "id": "e27dfcc9-e0f0-4a67-8475-d0d940514cf0",
+  "_index": 10,
+  "name": "CutScene 1",
+  "backgroundId": "94f04777-0cd8-4518-9e56-7f7a60b6cb82",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,16 +12,18 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_11",
-  "x": 432,
-  "y": 496,
+  "symbol": "scene_13",
+  "x": 608,
+  "y": 704,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Ulysses destroys \nthe manipulative \nforce and his",
-          "companions return \nto their stasis \nunharmed. "
+          "Thus, after being\nfree from the ",
+          "Gods control,\nUlysses regain",
+          "control of the\nOdyssey.",
+          "His travels among\nthe stars continue"
         ],
         "__section": "text",
         "avatarId": "",
@@ -38,30 +40,31 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__comment": false
       },
-      "id": "09dd8808-cbc9-4681-962c-48b60357e4ad"
+      "id": "e9fba756-c65b-4142-9aba-227664d08303"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "c3e9bb6d-27fa-4260-b1f7-4cfe08e74084",
+        "sceneId": "1fc22f7e-a606-4eee-b375-73278d863af4",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 11
         },
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "af58b519-8800-4b49-9bf6-4d1774ab86ee"
+      "id": "026e2072-8356-4b05-b495-3a870ef24cd2"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "f184f0a4-97cc-451b-a80f-ba6134f59a51"
+  "playerSpriteSheetId": "bbff1704-d6a5-42a1-805f-c07a11fa40e3"
 }

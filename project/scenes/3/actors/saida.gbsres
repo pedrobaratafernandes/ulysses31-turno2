@@ -1,0 +1,79 @@
+{
+  "_resourceType": "actor",
+  "id": "040c9a43-2ee6-4759-bb30-5c8a554a06c9",
+  "name": "saida",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4a4b5058-07b0-4b4b-9410-34763e173f01",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_50",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "4",
+        "flag": 0,
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "4",
+              "flag": 1,
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_FLAGS_COMPARE",
+                  "args": {
+                    "variable": "4",
+                    "flag": 2,
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_SPRITE",
+                        "args": {
+                          "actorId": "040c9a43-2ee6-4759-bb30-5c8a554a06c9",
+                          "spriteSheetId": "26e8518a-d584-497e-96f7-de26193218aa"
+                        },
+                        "id": "86d5e5cb-9cfc-4eb6-bc45-72216e47b0f4"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "681a99d3-7fda-42c2-8c6f-604ad63d99e2"
+                }
+              ],
+              "false": []
+            },
+            "id": "96bfa721-7421-48e6-a93f-0fd5e2eb3ea8"
+          }
+        ],
+        "false": []
+      },
+      "id": "111387ab-d290-4a87-b67b-70c709781e04"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 45,
+  "y": 40,
+  "_index": 16
+}
